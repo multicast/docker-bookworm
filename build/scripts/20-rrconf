@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -e
+set -u
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+git clone https://github.com/rrconf/rrconf /opt/rrconf
+ln -s /opt/rrconf/replay /bin/replay
+ln -s /opt/rrconf/require /bin/require
+
+echo RRCONF=/opt/rrconf >> /etc/rrconf.conf
+echo RRCONF_REPOS=/etc/rrconf.d >> /etc/rrconf.conf
+
+mkdir -p /etc/rrconf.d
+echo 'https://github.com/rrconf/mod-' > /etc/rrconf.d/99-github
+
+etckeeper commit "rrconf installation"

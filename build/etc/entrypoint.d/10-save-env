@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+source /etc/entrypoint.sh
+
+##
+## save environment variables to /etc/profile.d/00docker-env.sh
+##
+export -p | grep -v _= > /etc/profile.d/00docker-env.sh
+
+for v in \
+  APT_HTTP_PROXY \
+  HOME \
+  HOSTNAME \
+  PATH \
+  PWD \
+  SHLVL \
+  TERM \
+;do
+  sed -i -e "/^export ${v}=/d" /etc/profile.d/00docker-env.sh || true
+  sed -i -e "/^declare -x ${v}=/d" /etc/profile.d/00docker-env.sh || true
+done
+
+dpkg-query -s etckeeper 1>/dev/null 2>/dev/null && {
+	etckeeper unclean && {
+		etckeeper commit "add /etc/profile.d/00docker-env.sh" 1>/dev/null 2>/dev/null
+	} || true
+}

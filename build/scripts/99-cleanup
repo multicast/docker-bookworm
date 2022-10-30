@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+set -e
+set -u
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+##
+## unset user.email (etckeeper)
+##
+#git config --global --unset user.email
+
+##
+## remove apt proxy file
+##
+rm -f /etc/apt/apt.conf.d/proxy
+etckeeper unclean &&
+  etckeeper commit "removed build-time apt proxy file" 1>/dev/null 2>/dev/null || true
+
+##
+## etckeeper
+##
+etckeeper vcs gc
+cd /etc
+git gc
+
+##
+## apt
+##
+apt-get autoremove --purge -y
+apt-get clean
+rm -rf /var/lib/apt
+mkdir -p /var/lib/apt/lists

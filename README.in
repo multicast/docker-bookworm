@@ -1,0 +1,62 @@
+# =IMAGE=
+
+![Pulls](https://img.shields.io/docker/pulls/=NAMESPACE=/=IMAGE=.svg)
+![Stars](https://img.shields.io/docker/stars/=NAMESPACE=/=IMAGE=.svg)
+
+The [Debian](https://debian.org/) [Bookworm](https://wiki.debian.org/DebianBookworm)
+[container image](https://hub.docker.com/r/=NAMESPACE=/=IMAGE=/) with few handy
+utilities, utf8 locales...
+
+This image is built daily and in case of any security update, the list of
+packages is updated, commited and this triggers update of docker-hub image
+and all dependant images.
+
+## Quick Usage
+
+Run prebuilt:
+
+    $ docker run --rm -ti =NAMESPACE=/=IMAGE= bash
+
+Or you can clone & build, run `bash` to explore:
+
+    $ git clone https://github.com/multicast/docker-=IMAGE=
+    $ cd docker-=IMAGE=
+    $ docker build -t =IMAGE= .
+    $ docker run --rm -ti =IMAGE= bash
+
+Since the image is intended to be used as base image, I suppose more common usage
+would be in your own `Dockerfile` in the form:
+
+    FROM =NAMESPACE=/=IMAGE=:latest
+    ...
+
+## Build-time options
+
+You can `export` environment variables found in the following list:
+
+  * `ftp_proxy`
+  * `http_proxy`
+  * `https_proxy`
+
+The values for these variables will not end up in the resulting image.
+
+## Run-time options
+
+You can define environment variables via `--env` argument found in the following list:
+
+  * `ftp_proxy`
+  * `http_proxy`
+  * `https_proxy`
+  * `BASE_DEBUG`
+      * zero to higher numbers - to get more and more verbose
+  * `BASE_NOEXIT`
+      * set to 1 not to exit on startup errors
+
+The apt proxy configuration will use above variables.
+
+Further customization of container startup can be done using script mounted
+to `/etc/entrypoint.d/NN-your-script-name`, and it gets executed by default
+entry point script. See [examples](build/etc/entrypoint.d).
+
+# Packages
+

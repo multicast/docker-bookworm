@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+source /etc/entrypoint.sh
+
+## reset user.email for etckeeper
+##
+dpkg-query -s etckeeper 1>/dev/null 2>/dev/null &&
+	git config --global user.email "root@$HOSTNAME" 1>/dev/null 2>/dev/null

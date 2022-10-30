@@ -1,0 +1,88 @@
+#!/usr/bin/env bash
+set -e
+set -u
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+## Prevent initramfs updates from trying to run grub and lilo.
+## https://journal.paul.querna.org/articles/2013/10/15/docker-ubuntu-on-rackspace/
+## http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=594189
+export INITRD=no
+
+## Fix some issues with APT packages.
+## See https://github.com/dotcloud/docker/issues/1024
+dpkg-divert --local --rename --add /sbin/initctl
+ln -sf /bin/true /sbin/initctl
+
+## Replace the 'ischroot' tool to make it always return true.
+## Prevent initscripts updates from breaking /dev/shm.
+## https://journal.paul.querna.org/articles/2013/10/15/docker-ubuntu-on-rackspace/
+## https://bugs.launchpad.net/launchpad/+bug/974584
+dpkg-divert --local --rename --add /usr/bin/ischroot
+ln -sf /bin/true /usr/bin/ischroot
+
+apt-get install -y --no-install-recommends --auto-remove --purge apt-utils
+apt-get install -y --no-install-recommends --auto-remove --purge git
+git config --global user.email "root@localhost"
+git config --global user.name "root"
+
+apt-get install -y --no-install-recommends --auto-remove --purge etckeeper
+sed -i -e 's@^GIT_COMMIT_OPTIONS=""$@GIT_COMMIT_OPTIONS="-v"@' /etc/etckeeper/etckeeper.conf
+etckeeper commit "etckeeper: set -v to GIT_COMMIT_OPTIONS"
+
+# no init, just entry point scripts
+install -m 755 -o root -g root -p /root/build/sbin/entrypoint.sh /sbin/entrypoint.sh
+install -m 644 -o root -g root -p /root/build/etc/entrypoint.sh /etc/entrypoint.sh
+cp -r /root/build/etc/entrypoint.d /etc
+
+## packages sorted alphabeticaly
+##
+packages=""
+packages="${packages} ca-certificates"
+packages="${packages} curl"
+packages="${packages} di"
+packages="${packages} git"
+packages="${packages} iproute2"
+packages="${packages} iputils-ping"
+packages="${packages} joe"
+packages="${packages} less"
+packages="${packages} localepurge"
+packages="${packages} locales"
+packages="${packages} net-tools"
+packages="${packages} procps"
+packages="${packages} psmisc"
+packages="${packages} tzdata"
+packages="${packages} unzip"
+packages="${packages} whiptail"
+packages="${packages} xtail"
+
+## install packages
+##
+apt-get install -y --no-install-recommends --auto-remove --purge ${packages}
+
+## configure locales
+##
+echo -e "LANG=\"en_US.UTF-8\"\nLANGUAGE=\"en_US:en\"\n" > /etc/default/locale
+sed -i -e 's@^# \(en_US.UTF-8 UTF-8\)@\1@' /etc/locale.gen
+locale-gen
+update-locale LANG="en_US.UTF-8" LC_CTYPE="en_US.UTF-8"
+locale-gen
+etckeeper commit "set locale"
+
+## configure localepurge and remove locales
+##
+install -m 644 -o root -g root -p /root/build/etc/locale.nopurge /etc/locale.nopurge
+sed -i -e 's/^USE_DPKG/# USE_DPKG/' /etc/locale.nopurge
+localepurge
+sed -i -e 's/^# USE_DPKG/USE_DPKG/' /etc/locale.nopurge
+etckeeper commit "localepurge: purge locales other than en"
+
+## configure timezone
+##
+echo "Europe/Berlin" > /etc/timezone
+# workaround: see https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=813226
+[ -L /etc/localtime ] && rm /etc/localtime
+dpkg-reconfigure -f noninteractive tzdata
+etckeeper commit "set timezone"
+
+exit 0
