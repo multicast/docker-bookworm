@@ -6,7 +6,7 @@ export DEBIAN_FRONTEND=noninteractive
 
 ## any additions to sources.list
 ##
-#install -m 644 -o root -g root -p /root/build/etc/apt/sources.list /etc/apt/sources.list
+install -m 644 -o root -g root -p /root/build/etc/apt/sources.list /etc/apt/sources.list
 
 http_proxy=${http_proxy:=}
 test -z "${http_proxy}" || {
