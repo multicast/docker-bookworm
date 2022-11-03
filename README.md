@@ -89,7 +89,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  git                       1:2.35.1-1                        amd64        fast, scalable, distributed revision control system
     ii  git-man                   1:2.35.1-1                        all          fast, scalable, distributed revision control system (manual pages)
     ii  gpgv                      2.2.40-1                          amd64        GNU privacy guard - signature verification tool
-    ii  grep                      3.7-1                             amd64        GNU grep, egrep and fgrep
+    ii  grep                      3.8-3                             amd64        GNU grep, egrep and fgrep
     ii  gzip                      1.12-1                            amd64        GNU compression utilities
     ii  hostname                  3.23                              amd64        utility to set/show the host name or domain name
     ii  init-system-helpers       1.65.2                            all          helper tools for all init systems
@@ -155,7 +155,6 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libpam-runtime            1.5.2-5                           all          Runtime support for the PAM library
     ii  libpam0g:amd64            1.5.2-5                           amd64        Pluggable Authentication Modules library
     ii  libpcre2-8-0:amd64        10.40-1                           amd64        New Perl Compatible Regular Expression Library- 8 bit runtime files
-    ii  libpcre3:amd64            2:8.39-14                         amd64        Old Perl 5 Compatible Regular Expression Library - runtime files
     ii  libperl5.36:amd64         5.36.0-4                          amd64        shared Perl library
     ii  libpopt0:amd64            1.19+dfsg-1                       amd64        lib for parsing cmdline parameters
     ii  libprocps8:amd64          2:3.3.17-7.1                      amd64        library for accessing process information from /proc
