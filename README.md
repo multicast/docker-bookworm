@@ -154,7 +154,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libpam-modules-bin        1.5.2-5                           amd64        Pluggable Authentication Modules for PAM - helper binaries
     ii  libpam-runtime            1.5.2-5                           all          Runtime support for the PAM library
     ii  libpam0g:amd64            1.5.2-5                           amd64        Pluggable Authentication Modules library
-    ii  libpcre2-8-0:amd64        10.40-1                           amd64        New Perl Compatible Regular Expression Library- 8 bit runtime files
+    ii  libpcre2-8-0:amd64        10.40-2                           amd64        New Perl Compatible Regular Expression Library- 8 bit runtime files
     ii  libperl5.36:amd64         5.36.0-4                          amd64        shared Perl library
     ii  libpopt0:amd64            1.19+dfsg-1                       amd64        lib for parsing cmdline parameters
     ii  libprocps8:amd64          2:3.3.17-7.1                      amd64        library for accessing process information from /proc
@@ -173,12 +173,12 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libssh2-1:amd64           1.10.0-3+b1                       amd64        SSH2 client-side library
     ii  libssl3:amd64             3.0.5-4                           amd64        Secure Sockets Layer toolkit - shared libraries
     ii  libstdc++6:amd64          12.2.0-3                          amd64        GNU Standard C++ Library v3
-    ii  libsystemd0:amd64         251.6-1                           amd64        systemd utility library
+    ii  libsystemd0:amd64         252-2                             amd64        systemd utility library
     ii  libtasn1-6:amd64          4.19.0-2                          amd64        Manage ASN.1 structures (runtime)
     ii  libtinfo6:amd64           6.3+20220423-2                    amd64        shared low-level terminfo library for terminal handling
     ii  libtirpc-common           1.3.3+ds-1                        all          transport-independent RPC library - common files
     ii  libtirpc3:amd64           1.3.3+ds-1                        amd64        transport-independent RPC library
-    ii  libudev1:amd64            251.6-1                           amd64        libudev shared library
+    ii  libudev1:amd64            252-2                             amd64        libudev shared library
     ii  libunistring2:amd64       1.0-2                             amd64        Unicode string library for C
     ii  libuuid1:amd64            2.38.1-1.1+b1                     amd64        Universally Unique ID library
     ii  libxtables12:amd64        1.8.8-1                           amd64        netfilter xtables library
