@@ -66,8 +66,8 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ||/ Name                      Version                           Architecture Description
     +++-=========================-=================================-============-========================================================================
     ii  adduser                   3.129                             all          add and remove users and groups
-    ii  apt                       2.5.3+b1                          amd64        commandline package manager
-    ii  apt-utils                 2.5.3+b1                          amd64        package management related utility programs
+    ii  apt                       2.5.4                             amd64        commandline package manager
+    ii  apt-utils                 2.5.4                             amd64        package management related utility programs
     ii  base-files                12.3                              amd64        Debian base system miscellaneous files
     ii  base-passwd               3.6.1                             amd64        Debian base system master password and group files
     ii  bash                      5.2-2                             amd64        GNU Bourne Again SHell
@@ -98,7 +98,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  joe                       4.6-1+b1                          amd64        user friendly full screen text editor
     ii  less                      590-1                             amd64        pager program similar to more
     ii  libacl1:amd64             2.3.1-1                           amd64        access control list - shared library
-    ii  libapt-pkg6.0:amd64       2.5.3+b1                          amd64        package management runtime library
+    ii  libapt-pkg6.0:amd64       2.5.4                             amd64        package management runtime library
     ii  libattr1:amd64            1:2.5.1-1                         amd64        extended attribute handling - shared library
     ii  libaudit-common           1:3.0.7-1.1                       all          Dynamic library for security auditing - common files
     ii  libaudit1:amd64           1:3.0.7-1.1+b1                    amd64        Dynamic library for security auditing
@@ -171,7 +171,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libsmartcols1:amd64       2.38.1-1.1+b1                     amd64        smart column output alignment library
     ii  libss2:amd64              1.46.6~rc1-1+b1                   amd64        command-line interface parsing library
     ii  libssh2-1:amd64           1.10.0-3+b1                       amd64        SSH2 client-side library
-    ii  libssl3:amd64             3.0.5-4                           amd64        Secure Sockets Layer toolkit - shared libraries
+    ii  libssl3:amd64             3.0.7-1                           amd64        Secure Sockets Layer toolkit - shared libraries
     ii  libstdc++6:amd64          12.2.0-3                          amd64        GNU Standard C++ Library v3
     ii  libsystemd0:amd64         252-2                             amd64        systemd utility library
     ii  libtasn1-6:amd64          4.19.0-2                          amd64        Manage ASN.1 structures (runtime)
@@ -193,7 +193,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  ncurses-base              6.3+20220423-2                    all          basic terminal type definitions
     ii  ncurses-bin               6.3+20220423-2                    amd64        terminal-related programs and man pages
     ii  net-tools                 1.60+git20181103.0eebece-1        amd64        NET-3 networking toolkit
-    ii  openssl                   3.0.5-4                           amd64        Secure Sockets Layer toolkit - cryptographic utility
+    ii  openssl                   3.0.7-1                           amd64        Secure Sockets Layer toolkit - cryptographic utility
     ii  passwd                    1:4.12.3+dfsg1-2                  amd64        change and administer password and group data
     ii  perl                      5.36.0-4                          amd64        Larry Wall's Practical Extraction and Report Language
     ii  perl-base                 5.36.0-4                          amd64        minimal Perl system
