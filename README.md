@@ -101,7 +101,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libapt-pkg6.0:amd64       2.5.4                             amd64        package management runtime library
     ii  libattr1:amd64            1:2.5.1-1                         amd64        extended attribute handling - shared library
     ii  libaudit-common           1:3.0.7-1.1                       all          Dynamic library for security auditing - common files
-    ii  libaudit1:amd64           1:3.0.7-1.1+b1                    amd64        Dynamic library for security auditing
+    ii  libaudit1:amd64           1:3.0.7-1.1+b2                    amd64        Dynamic library for security auditing
     ii  libblkid1:amd64           2.38.1-1.1+b1                     amd64        block device ID library
     ii  libbpf1:amd64             1:1.0.1-2                         amd64        eBPF helper library (shared library)
     ii  libbrotli1:amd64          1.0.9-2+b5                        amd64        library implementing brotli encoder and decoder (shared libraries)
@@ -165,7 +165,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libseccomp2:amd64         2.5.4-1+b2                        amd64        high level interface to Linux seccomp filter
     ii  libselinux1:amd64         3.4-1+b3                          amd64        SELinux runtime shared libraries
     ii  libsemanage-common        3.4-1                             all          Common files for SELinux policy management libraries
-    ii  libsemanage2:amd64        3.4-1+b2                          amd64        SELinux policy management library
+    ii  libsemanage2:amd64        3.4-1+b3                          amd64        SELinux policy management library
     ii  libsepol2:amd64           3.4-2                             amd64        SELinux library for manipulating binary security policies
     ii  libslang2:amd64           2.3.3-2                           amd64        S-Lang programming library - runtime version
     ii  libsmartcols1:amd64       2.38.1-1.1+b1                     amd64        smart column output alignment library
