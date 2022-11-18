@@ -65,7 +65,6 @@ entry point script. See [examples](build/etc/entrypoint.d).
     |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
     ||/ Name                      Version                           Architecture Description
     +++-=========================-=================================-============-========================================================================
-    ii  adduser                   3.129                             all          add and remove users and groups
     ii  apt                       2.5.4                             amd64        commandline package manager
     ii  apt-utils                 2.5.4                             amd64        package management related utility programs
     ii  base-files                12.3                              amd64        Debian base system miscellaneous files
@@ -186,7 +185,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libzstd1:amd64            1.5.2+dfsg-1                      amd64        fast lossless compression algorithm
     ii  localepurge               0.7.3.10                          all          reclaim disk space by removing unneeded localizations
     ii  locales                   2.36-4                            all          GNU C Library: National Language (locale) data [support]
-    ii  login                     1:4.12.3+dfsg1-3                  amd64        system login tools
+    ii  login                     1:4.13+dfsg1-1                    amd64        system login tools
     ii  logsave                   1.46.6~rc1-1+b1                   amd64        save the output of a command in a log file
     ii  mawk                      1.3.4.20200120-3.1                amd64        Pattern scanning and text processing language
     ii  mount                     2.38.1-1.1+b1                     amd64        tools for mounting and manipulating filesystems
@@ -194,7 +193,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  ncurses-bin               6.3+20220423-2                    amd64        terminal-related programs and man pages
     ii  net-tools                 1.60+git20181103.0eebece-1        amd64        NET-3 networking toolkit
     ii  openssl                   3.0.7-1                           amd64        Secure Sockets Layer toolkit - cryptographic utility
-    ii  passwd                    1:4.12.3+dfsg1-3                  amd64        change and administer password and group data
+    ii  passwd                    1:4.13+dfsg1-1                    amd64        change and administer password and group data
     ii  perl                      5.36.0-4                          amd64        Larry Wall's Practical Extraction and Report Language
     ii  perl-base                 5.36.0-4                          amd64        minimal Perl system
     ii  perl-modules-5.36         5.36.0-4                          all          Core Perl modules
