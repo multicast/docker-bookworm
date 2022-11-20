@@ -118,7 +118,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libcurl4:amd64            7.86.0-1                          amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
     ii  libdb5.3:amd64            5.3.28+dfsg1-0.10                 amd64        Berkeley v5.3 Database Libraries [runtime]
     ii  libdebconfclient0:amd64   0.264                             amd64        Debian Configuration Management System (C-implementation library)
-    ii  libelf1:amd64             0.187-4                           amd64        library to read and write ELF files
+    ii  libelf1:amd64             0.188-1                           amd64        library to read and write ELF files
     ii  liberror-perl             0.17029-2                         all          Perl module for error/exception handling in an OO-ish way
     ii  libexpat1:amd64           2.5.0-1                           amd64        XML parsing C library - runtime library
     ii  libext2fs2:amd64          1.46.6~rc1-1+b1                   amd64        ext2/ext3/ext4 file system libraries
@@ -129,7 +129,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libgdbm6:amd64            1.23-3                            amd64        GNU dbm database routines (runtime version) 
     ii  libgmp10:amd64            2:6.2.1+dfsg1-1.1                 amd64        Multiprecision arithmetic library
     ii  libgnutls30:amd64         3.7.8-4                           amd64        GNU TLS library - main runtime library
-    ii  libgpg-error0:amd64       1.45-2                            amd64        GnuPG development runtime library
+    ii  libgpg-error0:amd64       1.46-1                            amd64        GnuPG development runtime library
     ii  libgssapi-krb5-2:amd64    1.20-1+b1                         amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
     ii  libhogweed6:amd64         3.8.1-2                           amd64        low level cryptographic library (public-key cryptos)
     ii  libidn2-0:amd64           2.3.3-1+b1                        amd64        Internationalized domain names (IDNA2008/TR46) library
