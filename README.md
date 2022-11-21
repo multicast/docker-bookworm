@@ -130,13 +130,13 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libgmp10:amd64            2:6.2.1+dfsg1-1.1                 amd64        Multiprecision arithmetic library
     ii  libgnutls30:amd64         3.7.8-4                           amd64        GNU TLS library - main runtime library
     ii  libgpg-error0:amd64       1.46-1                            amd64        GnuPG development runtime library
-    ii  libgssapi-krb5-2:amd64    1.20-1+b1                         amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+    ii  libgssapi-krb5-2:amd64    1.20.1-1                          amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
     ii  libhogweed6:amd64         3.8.1-2                           amd64        low level cryptographic library (public-key cryptos)
     ii  libidn2-0:amd64           2.3.3-1+b1                        amd64        Internationalized domain names (IDNA2008/TR46) library
-    ii  libk5crypto3:amd64        1.20-1+b1                         amd64        MIT Kerberos runtime libraries - Crypto Library
+    ii  libk5crypto3:amd64        1.20.1-1                          amd64        MIT Kerberos runtime libraries - Crypto Library
     ii  libkeyutils1:amd64        1.6.3-1                           amd64        Linux Key Management Utilities (library)
-    ii  libkrb5-3:amd64           1.20-1+b1                         amd64        MIT Kerberos runtime libraries
-    ii  libkrb5support0:amd64     1.20-1+b1                         amd64        MIT Kerberos runtime libraries - Support library
+    ii  libkrb5-3:amd64           1.20.1-1                          amd64        MIT Kerberos runtime libraries
+    ii  libkrb5support0:amd64     1.20.1-1                          amd64        MIT Kerberos runtime libraries - Support library
     ii  libldap-2.5-0:amd64       2.5.13+dfsg-2+b1                  amd64        OpenLDAP libraries
     ii  liblz4-1:amd64            1.9.4-1                           amd64        Fast LZ compression algorithm library - runtime
     ii  liblzma5:amd64            5.2.7-0.1                         amd64        XZ-format compression library
