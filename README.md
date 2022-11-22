@@ -73,7 +73,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  bsdutils                  1:2.38.1-1.1+b1                   amd64        basic utilities from 4.4BSD-Lite
     ii  ca-certificates           20211016                          all          Common CA certificates
     ii  coreutils                 9.1-1                             amd64        GNU core utilities
-    ii  curl                      7.86.0-1                          amd64        command line tool for transferring data with URL syntax
+    ii  curl                      7.86.0-2                          amd64        command line tool for transferring data with URL syntax
     ii  dash                      0.5.11+git20210903+057cd650a4ed-9 amd64        POSIX-compliant shell
     ii  debconf                   1.5.79                            all          Debian configuration management system
     ii  debian-archive-keyring    2021.1.1                          all          GnuPG archive keys of the Debian archive
@@ -113,9 +113,9 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libcap2:amd64             1:2.44-1                          amd64        POSIX 1003.1e capabilities (library)
     ii  libcap2-bin               1:2.44-1                          amd64        POSIX 1003.1e capabilities (utilities)
     ii  libcom-err2:amd64         1.46.6~rc1-1+b1                   amd64        common error description library
-    ii  libcrypt1:amd64           1:4.4.30-1                        amd64        libcrypt shared library
-    ii  libcurl3-gnutls:amd64     7.86.0-1                          amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
-    ii  libcurl4:amd64            7.86.0-1                          amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
+    ii  libcrypt1:amd64           1:4.4.33-1                        amd64        libcrypt shared library
+    ii  libcurl3-gnutls:amd64     7.86.0-2                          amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
+    ii  libcurl4:amd64            7.86.0-2                          amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
     ii  libdb5.3:amd64            5.3.28+dfsg1-0.10                 amd64        Berkeley v5.3 Database Libraries [runtime]
     ii  libdebconfclient0:amd64   0.264                             amd64        Debian Configuration Management System (C-implementation library)
     ii  libelf1:amd64             0.188-1                           amd64        library to read and write ELF files
@@ -201,7 +201,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  psmisc                    23.5-3                            amd64        utilities that use the proc file system
     ii  sed                       4.8-1                             amd64        GNU stream editor for filtering/transforming text
     ii  sensible-utils            0.0.17                            all          Utilities for sensible alternative selection
-    ii  sysvinit-utils            3.05-6                            amd64        System-V-like utilities
+    ii  sysvinit-utils            3.05-7                            amd64        System-V-like utilities
     ii  tar                       1.34+dfsg-1                       amd64        GNU version of the tar archiving utility
     ii  tzdata                    2022f-1                           all          time zone and daylight-saving time data
     ii  ucf                       3.0043                            all          Update Configuration File(s): preserve user changes to config files
