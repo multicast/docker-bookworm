@@ -117,14 +117,14 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libcurl3-gnutls:amd64     7.86.0-2                          amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
     ii  libcurl4:amd64            7.86.0-2                          amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
     ii  libdb5.3:amd64            5.3.28+dfsg1-0.10                 amd64        Berkeley v5.3 Database Libraries [runtime]
-    ii  libdebconfclient0:amd64   0.264                             amd64        Debian Configuration Management System (C-implementation library)
+    ii  libdebconfclient0:amd64   0.265                             amd64        Debian Configuration Management System (C-implementation library)
     ii  libelf1:amd64             0.188-1                           amd64        library to read and write ELF files
     ii  liberror-perl             0.17029-2                         all          Perl module for error/exception handling in an OO-ish way
     ii  libexpat1:amd64           2.5.0-1                           amd64        XML parsing C library - runtime library
     ii  libext2fs2:amd64          1.46.6~rc1-1+b1                   amd64        ext2/ext3/ext4 file system libraries
     ii  libffi8:amd64             3.4.4-1                           amd64        Foreign Function Interface library runtime
     ii  libgcc-s1:amd64           12.2.0-9                          amd64        GCC support library
-    ii  libgcrypt20:amd64         1.10.1-2                          amd64        LGPL Crypto library - runtime library
+    ii  libgcrypt20:amd64         1.10.1-3                          amd64        LGPL Crypto library - runtime library
     ii  libgdbm-compat4:amd64     1.23-3                            amd64        GNU dbm database routines (legacy support runtime version) 
     ii  libgdbm6:amd64            1.23-3                            amd64        GNU dbm database routines (runtime version) 
     ii  libgmp10:amd64            2:6.2.1+dfsg1-1.1                 amd64        Multiprecision arithmetic library
@@ -159,8 +159,8 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libprocps8:amd64          2:3.3.17-7.1                      amd64        library for accessing process information from /proc
     ii  libpsl5:amd64             0.21.0-1.2                        amd64        Library for Public Suffix List (shared libraries)
     ii  librtmp1:amd64            2.4+20151223.gitfa8646d.1-2+b2    amd64        toolkit for RTMP streams (shared library)
-    ii  libsasl2-2:amd64          2.1.28+dfsg-9                     amd64        Cyrus SASL - authentication abstraction library
-    ii  libsasl2-modules-db:amd64 2.1.28+dfsg-9                     amd64        Cyrus SASL - pluggable authentication modules (DB)
+    ii  libsasl2-2:amd64          2.1.28+dfsg-10                    amd64        Cyrus SASL - authentication abstraction library
+    ii  libsasl2-modules-db:amd64 2.1.28+dfsg-10                    amd64        Cyrus SASL - pluggable authentication modules (DB)
     ii  libseccomp2:amd64         2.5.4-1+b2                        amd64        high level interface to Linux seccomp filter
     ii  libselinux1:amd64         3.4-1+b3                          amd64        SELinux runtime shared libraries
     ii  libsemanage-common        3.4-1                             all          Common files for SELinux policy management libraries
