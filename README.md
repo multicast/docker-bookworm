@@ -146,7 +146,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libncurses6:amd64         6.3+20220423-2                    amd64        shared libraries for terminal handling
     ii  libncursesw6:amd64        6.3+20220423-2                    amd64        shared libraries for terminal handling (wide character support)
     ii  libnettle8:amd64          3.8.1-2                           amd64        low level cryptographic library (symmetric and one-way cryptos)
-    ii  libnewt0.52:amd64         0.52.21-6+b1                      amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
+    ii  libnewt0.52:amd64         0.52.22-1                         amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
     ii  libnghttp2-14:amd64       1.50.0-1+b1                       amd64        library implementing HTTP/2 protocol (shared library)
     ii  libp11-kit0:amd64         0.24.1-1                          amd64        library for loading and coordinating access to PKCS#11 modules - runtime
     ii  libpam-modules:amd64      1.5.2-5                           amd64        Pluggable Authentication Modules for PAM
@@ -209,6 +209,6 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  usr-is-merged             33                                all          Transitional package to assert a merged-/usr system
     ii  util-linux                2.38.1-3                          amd64        miscellaneous system utilities
     ii  util-linux-extra          2.38.1-3                          amd64        interactive login tools
-    ii  whiptail                  0.52.21-6+b1                      amd64        Displays user-friendly dialog boxes from shell scripts
+    ii  whiptail                  0.52.22-1                         amd64        Displays user-friendly dialog boxes from shell scripts
     ii  xtail                     2.1-8                             amd64        like "tail -f", but works on truncated files, directories, more
     ii  zlib1g:amd64              1:1.2.11.dfsg-4.1                 amd64        compression library - runtime
