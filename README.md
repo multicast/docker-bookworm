@@ -75,7 +75,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  coreutils                 9.1-1                             amd64        GNU core utilities
     ii  curl                      7.86.0-2                          amd64        command line tool for transferring data with URL syntax
     ii  dash                      0.5.11+git20210903+057cd650a4ed-9 amd64        POSIX-compliant shell
-    ii  debconf                   1.5.79                            all          Debian configuration management system
+    ii  debconf                   1.5.80                            all          Debian configuration management system
     ii  debian-archive-keyring    2021.1.1                          all          GnuPG archive keys of the Debian archive
     ii  debianutils               5.7-0.4                           amd64        Miscellaneous utilities specific to Debian
     ii  di                        4.51-1                            amd64        advanced df like disk information utility
@@ -93,7 +93,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  hostname                  3.23                              amd64        utility to set/show the host name or domain name
     ii  init-system-helpers       1.65.2                            all          helper tools for all init systems
     ii  iproute2                  6.0.0-1+b1                        amd64        networking and traffic control tools
-    ii  iputils-ping              3:20211215-1                      amd64        Tools to test the reachability of network hosts
+    ii  iputils-ping              3:20221126-1                      amd64        Tools to test the reachability of network hosts
     ii  joe                       4.6-1+b1                          amd64        user friendly full screen text editor
     ii  less                      590-1                             amd64        pager program similar to more
     ii  libacl1:amd64             2.3.1-1                           amd64        access control list - shared library
