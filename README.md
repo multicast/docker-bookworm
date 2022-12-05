@@ -106,9 +106,9 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libbrotli1:amd64          1.0.9-2+b5                        amd64        library implementing brotli encoder and decoder (shared libraries)
     ii  libbsd0:amd64             0.11.7-1                          amd64        utility functions from BSD systems - shared library
     ii  libbz2-1.0:amd64          1.0.8-5+b1                        amd64        high-quality block-sorting file compressor library - runtime
-    ii  libc-bin                  2.36-5                            amd64        GNU C Library: Binaries
-    ii  libc-l10n                 2.36-5                            all          GNU C Library: localization files
-    ii  libc6:amd64               2.36-5                            amd64        GNU C Library: Shared libraries
+    ii  libc-bin                  2.36-6                            amd64        GNU C Library: Binaries
+    ii  libc-l10n                 2.36-6                            all          GNU C Library: localization files
+    ii  libc6:amd64               2.36-6                            amd64        GNU C Library: Shared libraries
     ii  libcap-ng0:amd64          0.8.3-1+b2                        amd64        alternate POSIX capabilities library
     ii  libcap2:amd64             1:2.44-1                          amd64        POSIX 1003.1e capabilities (library)
     ii  libcap2-bin               1:2.44-1                          amd64        POSIX 1003.1e capabilities (utilities)
@@ -184,14 +184,14 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libxxhash0:amd64          0.8.1-1                           amd64        shared library for xxhash
     ii  libzstd1:amd64            1.5.2+dfsg-1                      amd64        fast lossless compression algorithm
     ii  localepurge               0.7.3.10                          all          reclaim disk space by removing unneeded localizations
-    ii  locales                   2.36-5                            all          GNU C Library: National Language (locale) data [support]
+    ii  locales                   2.36-6                            all          GNU C Library: National Language (locale) data [support]
     ii  login                     1:4.13+dfsg1-1                    amd64        system login tools
     ii  logsave                   1.46.6~rc1-1+b1                   amd64        save the output of a command in a log file
     ii  mawk                      1.3.4.20200120-3.1                amd64        Pattern scanning and text processing language
     ii  mount                     2.38.1-4                          amd64        tools for mounting and manipulating filesystems
     ii  ncurses-base              6.3+20220423-2                    all          basic terminal type definitions
     ii  ncurses-bin               6.3+20220423-2                    amd64        terminal-related programs and man pages
-    ii  net-tools                 1.60+git20181103.0eebece-1        amd64        NET-3 networking toolkit
+    ii  net-tools                 2.10-0.1                          amd64        NET-3 networking toolkit
     ii  openssl                   3.0.7-1                           amd64        Secure Sockets Layer toolkit - cryptographic utility
     ii  passwd                    1:4.13+dfsg1-1                    amd64        change and administer password and group data
     ii  perl                      5.36.0-4                          amd64        Larry Wall's Practical Extraction and Report Language
