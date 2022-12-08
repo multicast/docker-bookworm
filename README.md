@@ -98,7 +98,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  less                      590-1                             amd64        pager program similar to more
     ii  libacl1:amd64             2.3.1-2                           amd64        access control list - shared library
     ii  libapt-pkg6.0:amd64       2.5.4                             amd64        package management runtime library
-    ii  libattr1:amd64            1:2.5.1-1                         amd64        extended attribute handling - shared library
+    ii  libattr1:amd64            1:2.5.1-3                         amd64        extended attribute handling - shared library
     ii  libaudit-common           1:3.0.7-1.1                       all          Dynamic library for security auditing - common files
     ii  libaudit1:amd64           1:3.0.7-1.1+b2                    amd64        Dynamic library for security auditing
     ii  libblkid1:amd64           2.38.1-4                          amd64        block device ID library
