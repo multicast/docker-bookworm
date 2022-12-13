@@ -211,4 +211,4 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  util-linux-extra          2.38.1-4                          amd64        interactive login tools
     ii  whiptail                  0.52.23-1                         amd64        Displays user-friendly dialog boxes from shell scripts
     ii  xtail                     2.1-8                             amd64        like "tail -f", but works on truncated files, directories, more
-    ii  zlib1g:amd64              1:1.2.11.dfsg-4.1                 amd64        compression library - runtime
+    ii  zlib1g:amd64              1:1.2.13.dfsg-1                   amd64        compression library - runtime
