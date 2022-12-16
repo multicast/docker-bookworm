@@ -84,7 +84,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  e2fsprogs                 1.46.6~rc1-1+b1                   amd64        ext2/ext3/ext4 file system utilities
     ii  etckeeper                 1.18.18-1.1                       all          store /etc in git, mercurial, brz or darcs
     ii  findutils                 4.9.0-3                           amd64        utilities for finding files--find, xargs
-    ii  gcc-12-base:amd64         12.2.0-9                          amd64        GCC, the GNU Compiler Collection (base package)
+    ii  gcc-12-base:amd64         12.2.0-10                         amd64        GCC, the GNU Compiler Collection (base package)
     ii  git                       1:2.35.1-1                        amd64        fast, scalable, distributed revision control system
     ii  git-man                   1:2.35.1-1                        all          fast, scalable, distributed revision control system (manual pages)
     ii  gpgv                      2.2.40-1                          amd64        GNU privacy guard - signature verification tool
@@ -123,7 +123,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libexpat1:amd64           2.5.0-1                           amd64        XML parsing C library - runtime library
     ii  libext2fs2:amd64          1.46.6~rc1-1+b1                   amd64        ext2/ext3/ext4 file system libraries
     ii  libffi8:amd64             3.4.4-1                           amd64        Foreign Function Interface library runtime
-    ii  libgcc-s1:amd64           12.2.0-9                          amd64        GCC support library
+    ii  libgcc-s1:amd64           12.2.0-10                         amd64        GCC support library
     ii  libgcrypt20:amd64         1.10.1-3                          amd64        LGPL Crypto library - runtime library
     ii  libgdbm-compat4:amd64     1.23-3                            amd64        GNU dbm database routines (legacy support runtime version) 
     ii  libgdbm6:amd64            1.23-3                            amd64        GNU dbm database routines (runtime version) 
@@ -171,7 +171,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libss2:amd64              1.46.6~rc1-1+b1                   amd64        command-line interface parsing library
     ii  libssh2-1:amd64           1.10.0-3+b1                       amd64        SSH2 client-side library
     ii  libssl3:amd64             3.0.7-1                           amd64        Secure Sockets Layer toolkit - shared libraries
-    ii  libstdc++6:amd64          12.2.0-9                          amd64        GNU Standard C++ Library v3
+    ii  libstdc++6:amd64          12.2.0-10                         amd64        GNU Standard C++ Library v3
     ii  libsystemd0:amd64         252.2-2                           amd64        systemd utility library
     ii  libtasn1-6:amd64          4.19.0-2                          amd64        Manage ASN.1 structures (runtime)
     ii  libtinfo6:amd64           6.3+20220423-2                    amd64        shared low-level terminfo library for terminal handling
