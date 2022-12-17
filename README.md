@@ -154,7 +154,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libpam-runtime            1.5.2-5                           all          Runtime support for the PAM library
     ii  libpam0g:amd64            1.5.2-5                           amd64        Pluggable Authentication Modules library
     ii  libpcre2-8-0:amd64        10.40-3                           amd64        New Perl Compatible Regular Expression Library- 8 bit runtime files
-    ii  libperl5.36:amd64         5.36.0-4                          amd64        shared Perl library
+    ii  libperl5.36:amd64         5.36.0-6                          amd64        shared Perl library
     ii  libpopt0:amd64            1.19+dfsg-1                       amd64        lib for parsing cmdline parameters
     ii  libprocps8:amd64          2:3.3.17-7.1                      amd64        library for accessing process information from /proc
     ii  libpsl5:amd64             0.21.0-1.2                        amd64        Library for Public Suffix List (shared libraries)
@@ -194,9 +194,9 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  net-tools                 2.10-0.1                          amd64        NET-3 networking toolkit
     ii  openssl                   3.0.7-1                           amd64        Secure Sockets Layer toolkit - cryptographic utility
     ii  passwd                    1:4.13+dfsg1-1                    amd64        change and administer password and group data
-    ii  perl                      5.36.0-4                          amd64        Larry Wall's Practical Extraction and Report Language
-    ii  perl-base                 5.36.0-4                          amd64        minimal Perl system
-    ii  perl-modules-5.36         5.36.0-4                          all          Core Perl modules
+    ii  perl                      5.36.0-6                          amd64        Larry Wall's Practical Extraction and Report Language
+    ii  perl-base                 5.36.0-6                          amd64        minimal Perl system
+    ii  perl-modules-5.36         5.36.0-6                          all          Core Perl modules
     ii  procps                    2:3.3.17-7.1                      amd64        /proc file system utilities
     ii  psmisc                    23.5-3                            amd64        utilities that use the proc file system
     ii  sed                       4.8-1                             amd64        GNU stream editor for filtering/transforming text
