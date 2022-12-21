@@ -198,7 +198,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  perl-base                 5.36.0-6                          amd64        minimal Perl system
     ii  perl-modules-5.36         5.36.0-6                          all          Core Perl modules
     ii  procps                    2:3.3.17-7.1                      amd64        /proc file system utilities
-    ii  psmisc                    23.5-3                            amd64        utilities that use the proc file system
+    ii  psmisc                    23.6-1                            amd64        utilities that use the proc file system
     ii  sed                       4.8-1                             amd64        GNU stream editor for filtering/transforming text
     ii  sensible-utils            0.0.17                            all          Utilities for sensible alternative selection
     ii  sysvinit-utils            3.05-7                            amd64        System-V-like utilities
@@ -206,7 +206,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  tzdata                    2022f-1                           all          time zone and daylight-saving time data
     ii  ucf                       3.0043                            all          Update Configuration File(s): preserve user changes to config files
     ii  unzip                     6.0-27                            amd64        De-archiver for .zip files
-    ii  usr-is-merged             33                                all          Transitional package to assert a merged-/usr system
+    ii  usr-is-merged             35                                all          Transitional package to assert a merged-/usr system
     ii  util-linux                2.38.1-4                          amd64        miscellaneous system utilities
     ii  util-linux-extra          2.38.1-4                          amd64        interactive login tools
     ii  whiptail                  0.52.23-1                         amd64        Displays user-friendly dialog boxes from shell scripts
