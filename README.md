@@ -80,7 +80,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  debianutils               5.7-0.4                           amd64        Miscellaneous utilities specific to Debian
     ii  di                        4.51-1                            amd64        advanced df like disk information utility
     ii  diffutils                 1:3.8-1                           amd64        File comparison utilities
-    ii  dpkg                      1.21.12                           amd64        Debian package management system
+    ii  dpkg                      1.21.13                           amd64        Debian package management system
     ii  e2fsprogs                 1.46.6~rc1-1+b1                   amd64        ext2/ext3/ext4 file system utilities
     ii  etckeeper                 1.18.18-1.1                       all          store /etc in git, mercurial, brz or darcs
     ii  findutils                 4.9.0-3                           amd64        utilities for finding files--find, xargs
@@ -134,7 +134,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libhogweed6:amd64         3.8.1-2                           amd64        low level cryptographic library (public-key cryptos)
     ii  libidn2-0:amd64           2.3.3-1+b1                        amd64        Internationalized domain names (IDNA2008/TR46) library
     ii  libk5crypto3:amd64        1.20.1-1                          amd64        MIT Kerberos runtime libraries - Crypto Library
-    ii  libkeyutils1:amd64        1.6.3-1                           amd64        Linux Key Management Utilities (library)
+    ii  libkeyutils1:amd64        1.6.3-2                           amd64        Linux Key Management Utilities (library)
     ii  libkrb5-3:amd64           1.20.1-1                          amd64        MIT Kerberos runtime libraries
     ii  libkrb5support0:amd64     1.20.1-1                          amd64        MIT Kerberos runtime libraries - Support library
     ii  libldap-2.5-0:amd64       2.5.13+dfsg-2+b1                  amd64        OpenLDAP libraries
