@@ -92,7 +92,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  gzip                      1.12-1                            amd64        GNU compression utilities
     ii  hostname                  3.23                              amd64        utility to set/show the host name or domain name
     ii  init-system-helpers       1.65.2                            all          helper tools for all init systems
-    ii  iproute2                  6.0.0-1+b1                        amd64        networking and traffic control tools
+    ii  iproute2                  6.1.0-1                           amd64        networking and traffic control tools
     ii  iputils-ping              3:20221126-1                      amd64        Tools to test the reachability of network hosts
     ii  joe                       4.6-1+b1                          amd64        user friendly full screen text editor
     ii  less                      590-1                             amd64        pager program similar to more
@@ -110,8 +110,8 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libc-l10n                 2.36-6                            all          GNU C Library: localization files
     ii  libc6:amd64               2.36-6                            amd64        GNU C Library: Shared libraries
     ii  libcap-ng0:amd64          0.8.3-1+b2                        amd64        alternate POSIX capabilities library
-    ii  libcap2:amd64             1:2.44-1                          amd64        POSIX 1003.1e capabilities (library)
-    ii  libcap2-bin               1:2.44-1                          amd64        POSIX 1003.1e capabilities (utilities)
+    ii  libcap2:amd64             1:2.66-3                          amd64        POSIX 1003.1e capabilities (library)
+    ii  libcap2-bin               1:2.66-3                          amd64        POSIX 1003.1e capabilities (utilities)
     ii  libcom-err2:amd64         1.46.6~rc1-1+b1                   amd64        common error description library
     ii  libcrypt1:amd64           1:4.4.33-1                        amd64        libcrypt shared library
     ii  libcurl3-gnutls:amd64     7.86.0-2                          amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
@@ -162,9 +162,9 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libsasl2-2:amd64          2.1.28+dfsg-10                    amd64        Cyrus SASL - authentication abstraction library
     ii  libsasl2-modules-db:amd64 2.1.28+dfsg-10                    amd64        Cyrus SASL - pluggable authentication modules (DB)
     ii  libseccomp2:amd64         2.5.4-1+b2                        amd64        high level interface to Linux seccomp filter
-    ii  libselinux1:amd64         3.4-1+b3                          amd64        SELinux runtime shared libraries
+    ii  libselinux1:amd64         3.4-1+b4                          amd64        SELinux runtime shared libraries
     ii  libsemanage-common        3.4-1                             all          Common files for SELinux policy management libraries
-    ii  libsemanage2:amd64        3.4-1+b3                          amd64        SELinux policy management library
+    ii  libsemanage2:amd64        3.4-1+b4                          amd64        SELinux policy management library
     ii  libsepol2:amd64           3.4-2                             amd64        SELinux library for manipulating binary security policies
     ii  libslang2:amd64           2.3.3-2                           amd64        S-Lang programming library - runtime version
     ii  libsmartcols1:amd64       2.38.1-4                          amd64        smart column output alignment library
@@ -172,12 +172,12 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libssh2-1:amd64           1.10.0-3+b1                       amd64        SSH2 client-side library
     ii  libssl3:amd64             3.0.7-1                           amd64        Secure Sockets Layer toolkit - shared libraries
     ii  libstdc++6:amd64          12.2.0-10                         amd64        GNU Standard C++ Library v3
-    ii  libsystemd0:amd64         252.2-2                           amd64        systemd utility library
+    ii  libsystemd0:amd64         252.4-1                           amd64        systemd utility library
     ii  libtasn1-6:amd64          4.19.0-2                          amd64        Manage ASN.1 structures (runtime)
     ii  libtinfo6:amd64           6.3+20220423-2                    amd64        shared low-level terminfo library for terminal handling
     ii  libtirpc-common           1.3.3+ds-1                        all          transport-independent RPC library - common files
     ii  libtirpc3:amd64           1.3.3+ds-1                        amd64        transport-independent RPC library
-    ii  libudev1:amd64            252.2-2                           amd64        libudev shared library
+    ii  libudev1:amd64            252.4-1                           amd64        libudev shared library
     ii  libunistring2:amd64       1.0-2                             amd64        Unicode string library for C
     ii  libuuid1:amd64            2.38.1-4                          amd64        Universally Unique ID library
     ii  libxtables12:amd64        1.8.8-1                           amd64        netfilter xtables library
