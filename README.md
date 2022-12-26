@@ -156,7 +156,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libpcre2-8-0:amd64        10.40-3                           amd64        New Perl Compatible Regular Expression Library- 8 bit runtime files
     ii  libperl5.36:amd64         5.36.0-6                          amd64        shared Perl library
     ii  libpopt0:amd64            1.19+dfsg-1                       amd64        lib for parsing cmdline parameters
-    ii  libprocps8:amd64          2:3.3.17-7.1                      amd64        library for accessing process information from /proc
+    ii  libproc2-0:amd64          2:4.0.2-3                         amd64        library for accessing process information from /proc
     ii  libpsl5:amd64             0.21.0-1.2                        amd64        Library for Public Suffix List (shared libraries)
     ii  librtmp1:amd64            2.4+20151223.gitfa8646d.1-2+b2    amd64        toolkit for RTMP streams (shared library)
     ii  libsasl2-2:amd64          2.1.28+dfsg-10                    amd64        Cyrus SASL - authentication abstraction library
@@ -197,11 +197,11 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  perl                      5.36.0-6                          amd64        Larry Wall's Practical Extraction and Report Language
     ii  perl-base                 5.36.0-6                          amd64        minimal Perl system
     ii  perl-modules-5.36         5.36.0-6                          all          Core Perl modules
-    ii  procps                    2:3.3.17-7.1                      amd64        /proc file system utilities
+    ii  procps                    2:4.0.2-3                         amd64        /proc file system utilities
     ii  psmisc                    23.6-1                            amd64        utilities that use the proc file system
     ii  sed                       4.8-1                             amd64        GNU stream editor for filtering/transforming text
     ii  sensible-utils            0.0.17                            all          Utilities for sensible alternative selection
-    ii  sysvinit-utils            3.05-7                            amd64        System-V-like utilities
+    ii  sysvinit-utils            3.06-2                            amd64        System-V-like utilities
     ii  tar                       1.34+dfsg-1                       amd64        GNU version of the tar archiving utility
     ii  tzdata                    2022f-1                           all          time zone and daylight-saving time data
     ii  ucf                       3.0043                            all          Update Configuration File(s): preserve user changes to config files
