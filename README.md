@@ -148,7 +148,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libnettle8:amd64          3.8.1-2                           amd64        low level cryptographic library (symmetric and one-way cryptos)
     ii  libnewt0.52:amd64         0.52.23-1                         amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
     ii  libnghttp2-14:amd64       1.51.0-1                          amd64        library implementing HTTP/2 protocol (shared library)
-    ii  libp11-kit0:amd64         0.24.1-1                          amd64        library for loading and coordinating access to PKCS#11 modules - runtime
+    ii  libp11-kit0:amd64         0.24.1-2                          amd64        library for loading and coordinating access to PKCS#11 modules - runtime
     ii  libpam-modules:amd64      1.5.2-5                           amd64        Pluggable Authentication Modules for PAM
     ii  libpam-modules-bin        1.5.2-5                           amd64        Pluggable Authentication Modules for PAM - helper binaries
     ii  libpam-runtime            1.5.2-5                           all          Runtime support for the PAM library
@@ -182,7 +182,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libuuid1:amd64            2.38.1-4                          amd64        Universally Unique ID library
     ii  libxtables12:amd64        1.8.8-1                           amd64        netfilter xtables library
     ii  libxxhash0:amd64          0.8.1-1                           amd64        shared library for xxhash
-    ii  libzstd1:amd64            1.5.2+dfsg-1                      amd64        fast lossless compression algorithm
+    ii  libzstd1:amd64            1.5.2+dfsg2-3                     amd64        fast lossless compression algorithm
     ii  localepurge               0.7.3.10                          all          reclaim disk space by removing unneeded localizations
     ii  locales                   2.36-7                            all          GNU C Library: National Language (locale) data [support]
     ii  login                     1:4.13+dfsg1-1                    amd64        system login tools
