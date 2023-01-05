@@ -90,7 +90,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  gpgv                      2.2.40-1                          amd64        GNU privacy guard - signature verification tool
     ii  grep                      3.8-3                             amd64        GNU grep, egrep and fgrep
     ii  gzip                      1.12-1                            amd64        GNU compression utilities
-    ii  hostname                  3.23                              amd64        utility to set/show the host name or domain name
+    ii  hostname                  3.23+nmu1                         amd64        utility to set/show the host name or domain name
     ii  init-system-helpers       1.65.2                            all          helper tools for all init systems
     ii  iproute2                  6.1.0-1                           amd64        networking and traffic control tools
     ii  iputils-ping              3:20221126-1                      amd64        Tools to test the reachability of network hosts
