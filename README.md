@@ -75,7 +75,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  coreutils                 9.1-1                             amd64        GNU core utilities
     ii  curl                      7.87.0-1                          amd64        command line tool for transferring data with URL syntax
     ii  dash                      0.5.11+git20210903+057cd650a4ed-9 amd64        POSIX-compliant shell
-    ii  debconf                   1.5.80                            all          Debian configuration management system
+    ii  debconf                   1.5.81                            all          Debian configuration management system
     ii  debian-archive-keyring    2021.1.1                          all          GnuPG archive keys of the Debian archive
     ii  debianutils               5.7-0.4                           amd64        Miscellaneous utilities specific to Debian
     ii  di                        4.51-1                            amd64        advanced df like disk information utility
@@ -143,8 +143,8 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libmd0:amd64              1.0.4-2                           amd64        message digest functions from BSD systems - shared library
     ii  libmnl0:amd64             1.0.4-3                           amd64        minimalistic Netlink communication library
     ii  libmount1:amd64           2.38.1-4                          amd64        device mounting library
-    ii  libncurses6:amd64         6.3+20221224-2                    amd64        shared libraries for terminal handling
-    ii  libncursesw6:amd64        6.3+20221224-2                    amd64        shared libraries for terminal handling (wide character support)
+    ii  libncurses6:amd64         6.4-1                             amd64        shared libraries for terminal handling
+    ii  libncursesw6:amd64        6.4-1                             amd64        shared libraries for terminal handling (wide character support)
     ii  libnettle8:amd64          3.8.1-2                           amd64        low level cryptographic library (symmetric and one-way cryptos)
     ii  libnewt0.52:amd64         0.52.23-1                         amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
     ii  libnghttp2-14:amd64       1.51.0-1                          amd64        library implementing HTTP/2 protocol (shared library)
@@ -174,7 +174,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libstdc++6:amd64          12.2.0-13                         amd64        GNU Standard C++ Library v3
     ii  libsystemd0:amd64         252.4-1                           amd64        systemd utility library
     ii  libtasn1-6:amd64          4.19.0-2                          amd64        Manage ASN.1 structures (runtime)
-    ii  libtinfo6:amd64           6.3+20221224-2                    amd64        shared low-level terminfo library for terminal handling
+    ii  libtinfo6:amd64           6.4-1                             amd64        shared low-level terminfo library for terminal handling
     ii  libtirpc-common           1.3.3+ds-1                        all          transport-independent RPC library - common files
     ii  libtirpc3:amd64           1.3.3+ds-1                        amd64        transport-independent RPC library
     ii  libudev1:amd64            252.4-1                           amd64        libudev shared library
@@ -189,8 +189,8 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  logsave                   1.46.6~rc1-1+b1                   amd64        save the output of a command in a log file
     ii  mawk                      1.3.4.20200120-3.1                amd64        Pattern scanning and text processing language
     ii  mount                     2.38.1-4                          amd64        tools for mounting and manipulating filesystems
-    ii  ncurses-base              6.3+20221224-2                    all          basic terminal type definitions
-    ii  ncurses-bin               6.3+20221224-2                    amd64        terminal-related programs and man pages
+    ii  ncurses-base              6.4-1                             all          basic terminal type definitions
+    ii  ncurses-bin               6.4-1                             amd64        terminal-related programs and man pages
     ii  net-tools                 2.10-0.1                          amd64        NET-3 networking toolkit
     ii  openssl                   3.0.7-1                           amd64        Secure Sockets Layer toolkit - cryptographic utility
     ii  passwd                    1:4.13+dfsg1-1                    amd64        change and administer password and group data
