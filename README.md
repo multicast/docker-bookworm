@@ -69,7 +69,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  apt-utils                 2.5.4                             amd64        package management related utility programs
     ii  base-files                12.3                              amd64        Debian base system miscellaneous files
     ii  base-passwd               3.6.1                             amd64        Debian base system master password and group files
-    ii  bash                      5.2-2+b2                          amd64        GNU Bourne Again SHell
+    ii  bash                      5.2.15-2                          amd64        GNU Bourne Again SHell
     ii  bsdutils                  1:2.38.1-4                        amd64        basic utilities from 4.4BSD-Lite
     ii  ca-certificates           20211016                          all          Common CA certificates
     ii  coreutils                 9.1-1                             amd64        GNU core utilities
@@ -203,7 +203,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  sensible-utils            0.0.17                            all          Utilities for sensible alternative selection
     ii  sysvinit-utils            3.06-2                            amd64        System-V-like utilities
     ii  tar                       1.34+dfsg-1                       amd64        GNU version of the tar archiving utility
-    ii  tzdata                    2022f-1                           all          time zone and daylight-saving time data
+    ii  tzdata                    2022g-1                           all          time zone and daylight-saving time data
     ii  ucf                       3.0043                            all          Update Configuration File(s): preserve user changes to config files
     ii  unzip                     6.0-27                            amd64        De-archiver for .zip files
     ii  usr-is-merged             35                                all          Transitional package to assert a merged-/usr system
