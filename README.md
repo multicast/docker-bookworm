@@ -199,7 +199,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  perl-modules-5.36         5.36.0-6                       all          Core Perl modules
     ii  procps                    2:4.0.2-3                      amd64        /proc file system utilities
     ii  psmisc                    23.6-1                         amd64        utilities that use the proc file system
-    ii  sed                       4.8-1                          amd64        GNU stream editor for filtering/transforming text
+    ii  sed                       4.9-1                          amd64        GNU stream editor for filtering/transforming text
     ii  sensible-utils            0.0.17                         all          Utilities for sensible alternative selection
     ii  sysvinit-utils            3.06-2                         amd64        System-V-like utilities
     ii  tar                       1.34+dfsg-1                    amd64        GNU version of the tar archiving utility
