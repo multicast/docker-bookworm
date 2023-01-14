@@ -102,7 +102,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libaudit-common           1:3.0.7-1.1                    all          Dynamic library for security auditing - common files
     ii  libaudit1:amd64           1:3.0.7-1.1+b2                 amd64        Dynamic library for security auditing
     ii  libblkid1:amd64           2.38.1-4                       amd64        block device ID library
-    ii  libbpf1:amd64             1:1.0.1-2                      amd64        eBPF helper library (shared library)
+    ii  libbpf1:amd64             1:1.1.0-1                      amd64        eBPF helper library (shared library)
     ii  libbrotli1:amd64          1.0.9-2+b5                     amd64        library implementing brotli encoder and decoder (shared libraries)
     ii  libbsd0:amd64             0.11.7-1                       amd64        utility functions from BSD systems - shared library
     ii  libbz2-1.0:amd64          1.0.8-5+b1                     amd64        high-quality block-sorting file compressor library - runtime
