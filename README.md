@@ -113,7 +113,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libcap2:amd64             1:2.66-3                       amd64        POSIX 1003.1e capabilities (library)
     ii  libcap2-bin               1:2.66-3                       amd64        POSIX 1003.1e capabilities (utilities)
     ii  libcom-err2:amd64         1.46.6~rc1-1+b1                amd64        common error description library
-    ii  libcrypt1:amd64           1:4.4.33-1                     amd64        libcrypt shared library
+    ii  libcrypt1:amd64           1:4.4.33-2                     amd64        libcrypt shared library
     ii  libcurl3-gnutls:amd64     7.87.0-1                       amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
     ii  libcurl4:amd64            7.87.0-1                       amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
     ii  libdb5.3:amd64            5.3.28+dfsg1-0.10              amd64        Berkeley v5.3 Database Libraries [runtime]
@@ -149,10 +149,10 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libnewt0.52:amd64         0.52.23-1                      amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
     ii  libnghttp2-14:amd64       1.51.0-1                       amd64        library implementing HTTP/2 protocol (shared library)
     ii  libp11-kit0:amd64         0.24.1-2                       amd64        library for loading and coordinating access to PKCS#11 modules - runtime
-    ii  libpam-modules:amd64      1.5.2-5                        amd64        Pluggable Authentication Modules for PAM
-    ii  libpam-modules-bin        1.5.2-5                        amd64        Pluggable Authentication Modules for PAM - helper binaries
-    ii  libpam-runtime            1.5.2-5                        all          Runtime support for the PAM library
-    ii  libpam0g:amd64            1.5.2-5                        amd64        Pluggable Authentication Modules library
+    ii  libpam-modules:amd64      1.5.2-6                        amd64        Pluggable Authentication Modules for PAM
+    ii  libpam-modules-bin        1.5.2-6                        amd64        Pluggable Authentication Modules for PAM - helper binaries
+    ii  libpam-runtime            1.5.2-6                        all          Runtime support for the PAM library
+    ii  libpam0g:amd64            1.5.2-6                        amd64        Pluggable Authentication Modules library
     ii  libpcre2-8-0:amd64        10.40-3                        amd64        New Perl Compatible Regular Expression Library- 8 bit runtime files
     ii  libperl5.36:amd64         5.36.0-6                       amd64        shared Perl library
     ii  libpopt0:amd64            1.19+dfsg-1                    amd64        lib for parsing cmdline parameters
