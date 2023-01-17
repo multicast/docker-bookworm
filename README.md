@@ -75,12 +75,12 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  coreutils                 9.1-1                          amd64        GNU core utilities
     ii  curl                      7.87.0-1                       amd64        command line tool for transferring data with URL syntax
     ii  dash                      0.5.12-2                       amd64        POSIX-compliant shell
-    ii  debconf                   1.5.81                         all          Debian configuration management system
+    ii  debconf                   1.5.82                         all          Debian configuration management system
     ii  debian-archive-keyring    2021.1.1                       all          GnuPG archive keys of the Debian archive
     ii  debianutils               5.7-0.4                        amd64        Miscellaneous utilities specific to Debian
     ii  di                        4.51-1                         amd64        advanced df like disk information utility
     ii  diffutils                 1:3.8-3                        amd64        File comparison utilities
-    ii  dpkg                      1.21.17                        amd64        Debian package management system
+    ii  dpkg                      1.21.18                        amd64        Debian package management system
     ii  e2fsprogs                 1.46.6~rc1-1+b1                amd64        ext2/ext3/ext4 file system utilities
     ii  etckeeper                 1.18.18-1.1                    all          store /etc in git, mercurial, brz or darcs
     ii  findutils                 4.9.0-4                        amd64        utilities for finding files--find, xargs
