@@ -139,7 +139,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libkrb5support0:amd64     1.20.1-1                       amd64        MIT Kerberos runtime libraries - Support library
     ii  libldap-2.5-0:amd64       2.5.13+dfsg-2+b1               amd64        OpenLDAP libraries
     ii  liblz4-1:amd64            1.9.4-1                        amd64        Fast LZ compression algorithm library - runtime
-    ii  liblzma5:amd64            5.4.0-0.1                      amd64        XZ-format compression library
+    ii  liblzma5:amd64            5.4.1-0.0                      amd64        XZ-format compression library
     ii  libmd0:amd64              1.0.4-2                        amd64        message digest functions from BSD systems - shared library
     ii  libmnl0:amd64             1.0.4-3                        amd64        minimalistic Netlink communication library
     ii  libmount1:amd64           2.38.1-4                       amd64        device mounting library
@@ -203,7 +203,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  sensible-utils            0.0.17+nmu1                    all          Utilities for sensible alternative selection
     ii  sysvinit-utils            3.06-2                         amd64        System-V-like utilities
     ii  tar                       1.34+dfsg-1                    amd64        GNU version of the tar archiving utility
-    ii  tzdata                    2022g-1                        all          time zone and daylight-saving time data
+    ii  tzdata                    2022g-2                        all          time zone and daylight-saving time data
     ii  ucf                       3.0043                         all          Update Configuration File(s): preserve user changes to config files
     ii  unzip                     6.0-27                         amd64        De-archiver for .zip files
     ii  usr-is-merged             35                             all          Transitional package to assert a merged-/usr system
