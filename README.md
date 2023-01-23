@@ -96,9 +96,9 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  iputils-ping              3:20221126-1                   amd64        Tools to test the reachability of network hosts
     ii  joe                       4.6-1+b1                       amd64        user friendly full screen text editor
     ii  less                      590-1.1                        amd64        pager program similar to more
-    ii  libacl1:amd64             2.3.1-2                        amd64        access control list - shared library
+    ii  libacl1:amd64             2.3.1-3                        amd64        access control list - shared library
     ii  libapt-pkg6.0:amd64       2.5.4                          amd64        package management runtime library
-    ii  libattr1:amd64            1:2.5.1-3                      amd64        extended attribute handling - shared library
+    ii  libattr1:amd64            1:2.5.1-4                      amd64        extended attribute handling - shared library
     ii  libaudit-common           1:3.0.7-1.1                    all          Dynamic library for security auditing - common files
     ii  libaudit1:amd64           1:3.0.7-1.1+b2                 amd64        Dynamic library for security auditing
     ii  libblkid1:amd64           2.38.1-4                       amd64        block device ID library
@@ -116,7 +116,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libcrypt1:amd64           1:4.4.33-2                     amd64        libcrypt shared library
     ii  libcurl3-gnutls:amd64     7.87.0-2                       amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
     ii  libcurl4:amd64            7.87.0-2                       amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
-    ii  libdb5.3:amd64            5.3.28+dfsg1-0.10              amd64        Berkeley v5.3 Database Libraries [runtime]
+    ii  libdb5.3:amd64            5.3.28+dfsg2-1                 amd64        Berkeley v5.3 Database Libraries [runtime]
     ii  libdebconfclient0:amd64   0.266                          amd64        Debian Configuration Management System (C-implementation library)
     ii  libelf1:amd64             0.188-2.1                      amd64        library to read and write ELF files
     ii  liberror-perl             0.17029-2                      all          Perl module for error/exception handling in an OO-ish way
@@ -170,7 +170,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libsmartcols1:amd64       2.38.1-4                       amd64        smart column output alignment library
     ii  libss2:amd64              1.46.6~rc1-1.1                 amd64        command-line interface parsing library
     ii  libssh2-1:amd64           1.10.0-3+b1                    amd64        SSH2 client-side library
-    ii  libssl3:amd64             3.0.7-1                        amd64        Secure Sockets Layer toolkit - shared libraries
+    ii  libssl3:amd64             3.0.7-2                        amd64        Secure Sockets Layer toolkit - shared libraries
     ii  libstdc++6:amd64          12.2.0-14                      amd64        GNU Standard C++ Library v3
     ii  libsystemd0:amd64         252.4-1                        amd64        systemd utility library
     ii  libtasn1-6:amd64          4.19.0-2                       amd64        Manage ASN.1 structures (runtime)
@@ -180,7 +180,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libudev1:amd64            252.4-1                        amd64        libudev shared library
     ii  libunistring2:amd64       1.0-2                          amd64        Unicode string library for C
     ii  libuuid1:amd64            2.38.1-4                       amd64        Universally Unique ID library
-    ii  libxtables12:amd64        1.8.8-1                        amd64        netfilter xtables library
+    ii  libxtables12:amd64        1.8.9-2                        amd64        netfilter xtables library
     ii  libxxhash0:amd64          0.8.1-1                        amd64        shared library for xxhash
     ii  libzstd1:amd64            1.5.2+dfsg2-3                  amd64        fast lossless compression algorithm
     ii  localepurge               0.7.3.10                       all          reclaim disk space by removing unneeded localizations
@@ -192,7 +192,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  ncurses-base              6.4-1                          all          basic terminal type definitions
     ii  ncurses-bin               6.4-1                          amd64        terminal-related programs and man pages
     ii  net-tools                 2.10-0.1                       amd64        NET-3 networking toolkit
-    ii  openssl                   3.0.7-1                        amd64        Secure Sockets Layer toolkit - cryptographic utility
+    ii  openssl                   3.0.7-2                        amd64        Secure Sockets Layer toolkit - cryptographic utility
     ii  passwd                    1:4.13+dfsg1-1                 amd64        change and administer password and group data
     ii  perl                      5.36.0-7                       amd64        Larry Wall's Practical Extraction and Report Language
     ii  perl-base                 5.36.0-7                       amd64        minimal Perl system
