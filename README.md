@@ -80,7 +80,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  debianutils               5.7-0.4                        amd64        Miscellaneous utilities specific to Debian
     ii  di                        4.51-1                         amd64        advanced df like disk information utility
     ii  diffutils                 1:3.8-3                        amd64        File comparison utilities
-    ii  dpkg                      1.21.18                        amd64        Debian package management system
+    ii  dpkg                      1.21.19                        amd64        Debian package management system
     ii  e2fsprogs                 1.46.6~rc1-1.1                 amd64        ext2/ext3/ext4 file system utilities
     ii  etckeeper                 1.18.18-1.1                    all          store /etc in git, mercurial, brz or darcs
     ii  findutils                 4.9.0-4                        amd64        utilities for finding files--find, xargs
@@ -88,7 +88,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  git                       1:2.39.0-1                     amd64        fast, scalable, distributed revision control system
     ii  git-man                   1:2.39.0-1                     all          fast, scalable, distributed revision control system (manual pages)
     ii  gpgv                      2.2.40-1                       amd64        GNU privacy guard - signature verification tool
-    ii  grep                      3.8-3                          amd64        GNU grep, egrep and fgrep
+    ii  grep                      3.8-5                          amd64        GNU grep, egrep and fgrep
     ii  gzip                      1.12-1                         amd64        GNU compression utilities
     ii  hostname                  3.23+nmu1                      amd64        utility to set/show the host name or domain name
     ii  init-system-helpers       1.65.2                         all          helper tools for all init systems
@@ -172,12 +172,12 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libssh2-1:amd64           1.10.0-3+b1                    amd64        SSH2 client-side library
     ii  libssl3:amd64             3.0.7-2                        amd64        Secure Sockets Layer toolkit - shared libraries
     ii  libstdc++6:amd64          12.2.0-14                      amd64        GNU Standard C++ Library v3
-    ii  libsystemd0:amd64         252.4-1                        amd64        systemd utility library
+    ii  libsystemd0:amd64         252.4-2                        amd64        systemd utility library
     ii  libtasn1-6:amd64          4.19.0-2                       amd64        Manage ASN.1 structures (runtime)
     ii  libtinfo6:amd64           6.4-1                          amd64        shared low-level terminfo library for terminal handling
     ii  libtirpc-common           1.3.3+ds-1                     all          transport-independent RPC library - common files
     ii  libtirpc3:amd64           1.3.3+ds-1                     amd64        transport-independent RPC library
-    ii  libudev1:amd64            252.4-1                        amd64        libudev shared library
+    ii  libudev1:amd64            252.4-2                        amd64        libudev shared library
     ii  libunistring2:amd64       1.0-2                          amd64        Unicode string library for C
     ii  libuuid1:amd64            2.38.1-4                       amd64        Universally Unique ID library
     ii  libxtables12:amd64        1.8.9-2                        amd64        netfilter xtables library
