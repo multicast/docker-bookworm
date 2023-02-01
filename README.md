@@ -85,8 +85,8 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  etckeeper                 1.18.18-1.1                    all          store /etc in git, mercurial, brz or darcs
     ii  findutils                 4.9.0-4                        amd64        utilities for finding files--find, xargs
     ii  gcc-12-base:amd64         12.2.0-14                      amd64        GCC, the GNU Compiler Collection (base package)
-    ii  git                       1:2.39.0-1                     amd64        fast, scalable, distributed revision control system
-    ii  git-man                   1:2.39.0-1                     all          fast, scalable, distributed revision control system (manual pages)
+    ii  git                       1:2.39.1-0.1                   amd64        fast, scalable, distributed revision control system
+    ii  git-man                   1:2.39.1-0.1                   all          fast, scalable, distributed revision control system (manual pages)
     ii  gpgv                      2.2.40-1                       amd64        GNU privacy guard - signature verification tool
     ii  grep                      3.8-5                          amd64        GNU grep, egrep and fgrep
     ii  gzip                      1.12-1                         amd64        GNU compression utilities
@@ -100,7 +100,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libapt-pkg6.0:amd64       2.5.5                          amd64        package management runtime library
     ii  libattr1:amd64            1:2.5.1-4                      amd64        extended attribute handling - shared library
     ii  libaudit-common           1:3.0.7-1.1                    all          Dynamic library for security auditing - common files
-    ii  libaudit1:amd64           1:3.0.7-1.1+b2                 amd64        Dynamic library for security auditing
+    ii  libaudit1:amd64           1:3.0.7-1.1+b3                 amd64        Dynamic library for security auditing
     ii  libblkid1:amd64           2.38.1-4                       amd64        block device ID library
     ii  libbpf1:amd64             1:1.1.0-1                      amd64        eBPF helper library (shared library)
     ii  libbrotli1:amd64          1.0.9-2+b5                     amd64        library implementing brotli encoder and decoder (shared libraries)
@@ -109,7 +109,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libc-bin                  2.36-8                         amd64        GNU C Library: Binaries
     ii  libc-l10n                 2.36-8                         all          GNU C Library: localization files
     ii  libc6:amd64               2.36-8                         amd64        GNU C Library: Shared libraries
-    ii  libcap-ng0:amd64          0.8.3-1+b2                     amd64        alternate POSIX capabilities library
+    ii  libcap-ng0:amd64          0.8.3-1+b3                     amd64        alternate POSIX capabilities library
     ii  libcap2:amd64             1:2.66-3                       amd64        POSIX 1003.1e capabilities (library)
     ii  libcap2-bin               1:2.66-3                       amd64        POSIX 1003.1e capabilities (utilities)
     ii  libcom-err2:amd64         1.46.6~rc1-1.1                 amd64        common error description library
@@ -143,8 +143,8 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libmd0:amd64              1.0.4-2                        amd64        message digest functions from BSD systems - shared library
     ii  libmnl0:amd64             1.0.4-3                        amd64        minimalistic Netlink communication library
     ii  libmount1:amd64           2.38.1-4                       amd64        device mounting library
-    ii  libncurses6:amd64         6.4-1                          amd64        shared libraries for terminal handling
-    ii  libncursesw6:amd64        6.4-1                          amd64        shared libraries for terminal handling (wide character support)
+    ii  libncurses6:amd64         6.4-2                          amd64        shared libraries for terminal handling
+    ii  libncursesw6:amd64        6.4-2                          amd64        shared libraries for terminal handling (wide character support)
     ii  libnettle8:amd64          3.8.1-2                        amd64        low level cryptographic library (symmetric and one-way cryptos)
     ii  libnewt0.52:amd64         0.52.23-1                      amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
     ii  libnghttp2-14:amd64       1.51.0-1                       amd64        library implementing HTTP/2 protocol (shared library)
@@ -161,10 +161,10 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  librtmp1:amd64            2.4+20151223.gitfa8646d.1-2+b2 amd64        toolkit for RTMP streams (shared library)
     ii  libsasl2-2:amd64          2.1.28+dfsg-10                 amd64        Cyrus SASL - authentication abstraction library
     ii  libsasl2-modules-db:amd64 2.1.28+dfsg-10                 amd64        Cyrus SASL - pluggable authentication modules (DB)
-    ii  libseccomp2:amd64         2.5.4-1+b2                     amd64        high level interface to Linux seccomp filter
+    ii  libseccomp2:amd64         2.5.4-1+b3                     amd64        high level interface to Linux seccomp filter
     ii  libselinux1:amd64         3.4-1+b4                       amd64        SELinux runtime shared libraries
     ii  libsemanage-common        3.4-1                          all          Common files for SELinux policy management libraries
-    ii  libsemanage2:amd64        3.4-1+b4                       amd64        SELinux policy management library
+    ii  libsemanage2:amd64        3.4-1+b5                       amd64        SELinux policy management library
     ii  libsepol2:amd64           3.4-2                          amd64        SELinux library for manipulating binary security policies
     ii  libslang2:amd64           2.3.3-2                        amd64        S-Lang programming library - runtime version
     ii  libsmartcols1:amd64       2.38.1-4                       amd64        smart column output alignment library
@@ -174,7 +174,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libstdc++6:amd64          12.2.0-14                      amd64        GNU Standard C++ Library v3
     ii  libsystemd0:amd64         252.4-2                        amd64        systemd utility library
     ii  libtasn1-6:amd64          4.19.0-2                       amd64        Manage ASN.1 structures (runtime)
-    ii  libtinfo6:amd64           6.4-1                          amd64        shared low-level terminfo library for terminal handling
+    ii  libtinfo6:amd64           6.4-2                          amd64        shared low-level terminfo library for terminal handling
     ii  libtirpc-common           1.3.3+ds-1                     all          transport-independent RPC library - common files
     ii  libtirpc3:amd64           1.3.3+ds-1                     amd64        transport-independent RPC library
     ii  libudev1:amd64            252.4-2                        amd64        libudev shared library
@@ -189,8 +189,8 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  logsave                   1.46.6~rc1-1.1                 amd64        save the output of a command in a log file
     ii  mawk                      1.3.4.20200120-3.1             amd64        Pattern scanning and text processing language
     ii  mount                     2.38.1-4                       amd64        tools for mounting and manipulating filesystems
-    ii  ncurses-base              6.4-1                          all          basic terminal type definitions
-    ii  ncurses-bin               6.4-1                          amd64        terminal-related programs and man pages
+    ii  ncurses-base              6.4-2                          all          basic terminal type definitions
+    ii  ncurses-bin               6.4-2                          amd64        terminal-related programs and man pages
     ii  net-tools                 2.10-0.1                       amd64        NET-3 networking toolkit
     ii  openssl                   3.0.7-2                        amd64        Secure Sockets Layer toolkit - cryptographic utility
     ii  passwd                    1:4.13+dfsg1-1                 amd64        change and administer password and group data
