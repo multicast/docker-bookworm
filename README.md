@@ -82,7 +82,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  diffutils                 1:3.8-3                        amd64        File comparison utilities
     ii  dpkg                      1.21.19                        amd64        Debian package management system
     ii  e2fsprogs                 1.46.6~rc1-1.1                 amd64        ext2/ext3/ext4 file system utilities
-    ii  etckeeper                 1.18.18-1.1                    all          store /etc in git, mercurial, brz or darcs
+    ii  etckeeper                 1.18.20-1                      all          store /etc in git, mercurial, brz or darcs
     ii  findutils                 4.9.0-4                        amd64        utilities for finding files--find, xargs
     ii  gcc-12-base:amd64         12.2.0-14                      amd64        GCC, the GNU Compiler Collection (base package)
     ii  git                       1:2.39.1-0.1                   amd64        fast, scalable, distributed revision control system
@@ -103,8 +103,8 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libaudit1:amd64           1:3.0.7-1.1+b3                 amd64        Dynamic library for security auditing
     ii  libblkid1:amd64           2.38.1-4                       amd64        block device ID library
     ii  libbpf1:amd64             1:1.1.0-1                      amd64        eBPF helper library (shared library)
-    ii  libbrotli1:amd64          1.0.9-2+b5                     amd64        library implementing brotli encoder and decoder (shared libraries)
-    ii  libbsd0:amd64             0.11.7-1                       amd64        utility functions from BSD systems - shared library
+    ii  libbrotli1:amd64          1.0.9-2+b6                     amd64        library implementing brotli encoder and decoder (shared libraries)
+    ii  libbsd0:amd64             0.11.7-2                       amd64        utility functions from BSD systems - shared library
     ii  libbz2-1.0:amd64          1.0.8-5+b1                     amd64        high-quality block-sorting file compressor library - runtime
     ii  libc-bin                  2.36-8                         amd64        GNU C Library: Binaries
     ii  libc-l10n                 2.36-8                         all          GNU C Library: localization files
@@ -146,7 +146,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libncurses6:amd64         6.4-2                          amd64        shared libraries for terminal handling
     ii  libncursesw6:amd64        6.4-2                          amd64        shared libraries for terminal handling (wide character support)
     ii  libnettle8:amd64          3.8.1-2                        amd64        low level cryptographic library (symmetric and one-way cryptos)
-    ii  libnewt0.52:amd64         0.52.23-1                      amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
+    ii  libnewt0.52:amd64         0.52.23-1+b1                   amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
     ii  libnghttp2-14:amd64       1.51.0-1                       amd64        library implementing HTTP/2 protocol (shared library)
     ii  libp11-kit0:amd64         0.24.1-2                       amd64        library for loading and coordinating access to PKCS#11 modules - runtime
     ii  libpam-modules:amd64      1.5.2-6                        amd64        Pluggable Authentication Modules for PAM
@@ -162,7 +162,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libsasl2-2:amd64          2.1.28+dfsg-10                 amd64        Cyrus SASL - authentication abstraction library
     ii  libsasl2-modules-db:amd64 2.1.28+dfsg-10                 amd64        Cyrus SASL - pluggable authentication modules (DB)
     ii  libseccomp2:amd64         2.5.4-1+b3                     amd64        high level interface to Linux seccomp filter
-    ii  libselinux1:amd64         3.4-1+b4                       amd64        SELinux runtime shared libraries
+    ii  libselinux1:amd64         3.4-1+b5                       amd64        SELinux runtime shared libraries
     ii  libsemanage-common        3.4-1                          all          Common files for SELinux policy management libraries
     ii  libsemanage2:amd64        3.4-1+b5                       amd64        SELinux policy management library
     ii  libsepol2:amd64           3.4-2                          amd64        SELinux library for manipulating binary security policies
@@ -209,6 +209,6 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  usr-is-merged             35                             all          Transitional package to assert a merged-/usr system
     ii  util-linux                2.38.1-4                       amd64        miscellaneous system utilities
     ii  util-linux-extra          2.38.1-4                       amd64        interactive login tools
-    ii  whiptail                  0.52.23-1                      amd64        Displays user-friendly dialog boxes from shell scripts
+    ii  whiptail                  0.52.23-1+b1                   amd64        Displays user-friendly dialog boxes from shell scripts
     ii  xtail                     2.1-8                          amd64        like "tail -f", but works on truncated files, directories, more
     ii  zlib1g:amd64              1:1.2.13.dfsg-1                amd64        compression library - runtime
