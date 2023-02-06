@@ -81,7 +81,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  di                        4.51-1                         amd64        advanced df like disk information utility
     ii  diffutils                 1:3.8-3                        amd64        File comparison utilities
     ii  dpkg                      1.21.19                        amd64        Debian package management system
-    ii  e2fsprogs                 1.46.6~rc1-1.1                 amd64        ext2/ext3/ext4 file system utilities
+    ii  e2fsprogs                 1.46.6-1                       amd64        ext2/ext3/ext4 file system utilities
     ii  etckeeper                 1.18.20-1                      all          store /etc in git, mercurial, brz or darcs
     ii  findutils                 4.9.0-4                        amd64        utilities for finding files--find, xargs
     ii  gcc-12-base:amd64         12.2.0-14                      amd64        GCC, the GNU Compiler Collection (base package)
@@ -112,7 +112,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libcap-ng0:amd64          0.8.3-1+b3                     amd64        alternate POSIX capabilities library
     ii  libcap2:amd64             1:2.66-3                       amd64        POSIX 1003.1e capabilities (library)
     ii  libcap2-bin               1:2.66-3                       amd64        POSIX 1003.1e capabilities (utilities)
-    ii  libcom-err2:amd64         1.46.6~rc1-1.1                 amd64        common error description library
+    ii  libcom-err2:amd64         1.46.6-1                       amd64        common error description library
     ii  libcrypt1:amd64           1:4.4.33-2                     amd64        libcrypt shared library
     ii  libcurl3-gnutls:amd64     7.87.0-2                       amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
     ii  libcurl4:amd64            7.87.0-2                       amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
@@ -121,7 +121,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libelf1:amd64             0.188-2.1                      amd64        library to read and write ELF files
     ii  liberror-perl             0.17029-2                      all          Perl module for error/exception handling in an OO-ish way
     ii  libexpat1:amd64           2.5.0-1                        amd64        XML parsing C library - runtime library
-    ii  libext2fs2:amd64          1.46.6~rc1-1.1                 amd64        ext2/ext3/ext4 file system libraries
+    ii  libext2fs2:amd64          1.46.6-1                       amd64        ext2/ext3/ext4 file system libraries
     ii  libffi8:amd64             3.4.4-1                        amd64        Foreign Function Interface library runtime
     ii  libgcc-s1:amd64           12.2.0-14                      amd64        GCC support library
     ii  libgcrypt20:amd64         1.10.1-3                       amd64        LGPL Crypto library - runtime library
@@ -168,7 +168,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libsepol2:amd64           3.4-2                          amd64        SELinux library for manipulating binary security policies
     ii  libslang2:amd64           2.3.3-2                        amd64        S-Lang programming library - runtime version
     ii  libsmartcols1:amd64       2.38.1-4                       amd64        smart column output alignment library
-    ii  libss2:amd64              1.46.6~rc1-1.1                 amd64        command-line interface parsing library
+    ii  libss2:amd64              1.46.6-1                       amd64        command-line interface parsing library
     ii  libssh2-1:amd64           1.10.0-3+b1                    amd64        SSH2 client-side library
     ii  libssl3:amd64             3.0.7-2                        amd64        Secure Sockets Layer toolkit - shared libraries
     ii  libstdc++6:amd64          12.2.0-14                      amd64        GNU Standard C++ Library v3
@@ -186,7 +186,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  localepurge               0.7.3.10                       all          reclaim disk space by removing unneeded localizations
     ii  locales                   2.36-8                         all          GNU C Library: National Language (locale) data [support]
     ii  login                     1:4.13+dfsg1-1                 amd64        system login tools
-    ii  logsave                   1.46.6~rc1-1.1                 amd64        save the output of a command in a log file
+    ii  logsave                   1.46.6-1                       amd64        save the output of a command in a log file
     ii  mawk                      1.3.4.20200120-3.1             amd64        Pattern scanning and text processing language
     ii  mount                     2.38.1-4                       amd64        tools for mounting and manipulating filesystems
     ii  ncurses-base              6.4-2                          all          basic terminal type definitions
