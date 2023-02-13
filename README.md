@@ -128,7 +128,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libgdbm-compat4:amd64     1.23-3                         amd64        GNU dbm database routines (legacy support runtime version) 
     ii  libgdbm6:amd64            1.23-3                         amd64        GNU dbm database routines (runtime version) 
     ii  libgmp10:amd64            2:6.2.1+dfsg1-1.1              amd64        Multiprecision arithmetic library
-    ii  libgnutls30:amd64         3.7.8-4                        amd64        GNU TLS library - main runtime library
+    ii  libgnutls30:amd64         3.7.8-5                        amd64        GNU TLS library - main runtime library
     ii  libgpg-error0:amd64       1.46-1                         amd64        GnuPG development runtime library
     ii  libgssapi-krb5-2:amd64    1.20.1-1                       amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
     ii  libhogweed6:amd64         3.8.1-2                        amd64        low level cryptographic library (public-key cryptos)
