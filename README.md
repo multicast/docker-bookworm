@@ -69,7 +69,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  apt-utils                 2.5.5                          amd64        package management related utility programs
     ii  base-files                12.3                           amd64        Debian base system miscellaneous files
     ii  base-passwd               3.6.1                          amd64        Debian base system master password and group files
-    ii  bash                      5.2.15-2                       amd64        GNU Bourne Again SHell
+    ii  bash                      5.2.15-2+b1                    amd64        GNU Bourne Again SHell
     ii  bsdutils                  1:2.38.1-4                     amd64        basic utilities from 4.4BSD-Lite
     ii  ca-certificates           20211016                       all          Common CA certificates
     ii  coreutils                 9.1-1                          amd64        GNU core utilities
@@ -80,7 +80,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  debianutils               5.7-0.4                        amd64        Miscellaneous utilities specific to Debian
     ii  di                        4.51-1                         amd64        advanced df like disk information utility
     ii  diffutils                 1:3.8-4                        amd64        File comparison utilities
-    ii  dpkg                      1.21.19                        amd64        Debian package management system
+    ii  dpkg                      1.21.20                        amd64        Debian package management system
     ii  e2fsprogs                 1.46.6-1                       amd64        ext2/ext3/ext4 file system utilities
     ii  etckeeper                 1.18.20-1                      all          store /etc in git, mercurial, brz or darcs
     ii  findutils                 4.9.0-4                        amd64        utilities for finding files--find, xargs
@@ -137,7 +137,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libkeyutils1:amd64        1.6.3-2                        amd64        Linux Key Management Utilities (library)
     ii  libkrb5-3:amd64           1.20.1-1                       amd64        MIT Kerberos runtime libraries
     ii  libkrb5support0:amd64     1.20.1-1                       amd64        MIT Kerberos runtime libraries - Support library
-    ii  libldap-2.5-0:amd64       2.5.13+dfsg-3                  amd64        OpenLDAP libraries
+    ii  libldap-2.5-0:amd64       2.5.13+dfsg-5                  amd64        OpenLDAP libraries
     ii  liblz4-1:amd64            1.9.4-1                        amd64        Fast LZ compression algorithm library - runtime
     ii  liblzma5:amd64            5.4.1-0.1                      amd64        XZ-format compression library
     ii  libmd0:amd64              1.0.4-2                        amd64        message digest functions from BSD systems - shared library
@@ -170,7 +170,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libsmartcols1:amd64       2.38.1-4                       amd64        smart column output alignment library
     ii  libss2:amd64              1.46.6-1                       amd64        command-line interface parsing library
     ii  libssh2-1:amd64           1.10.0-3+b1                    amd64        SSH2 client-side library
-    ii  libssl3:amd64             3.0.7-2                        amd64        Secure Sockets Layer toolkit - shared libraries
+    ii  libssl3:amd64             3.0.8-1                        amd64        Secure Sockets Layer toolkit - shared libraries
     ii  libstdc++6:amd64          12.2.0-14                      amd64        GNU Standard C++ Library v3
     ii  libsystemd0:amd64         252.5-2                        amd64        systemd utility library
     ii  libtasn1-6:amd64          4.19.0-2                       amd64        Manage ASN.1 structures (runtime)
@@ -192,7 +192,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  ncurses-base              6.4-2                          all          basic terminal type definitions
     ii  ncurses-bin               6.4-2                          amd64        terminal-related programs and man pages
     ii  net-tools                 2.10-0.1                       amd64        NET-3 networking toolkit
-    ii  openssl                   3.0.7-2                        amd64        Secure Sockets Layer toolkit - cryptographic utility
+    ii  openssl                   3.0.8-1                        amd64        Secure Sockets Layer toolkit - cryptographic utility
     ii  passwd                    1:4.13+dfsg1-1                 amd64        change and administer password and group data
     ii  perl                      5.36.0-7                       amd64        Larry Wall's Practical Extraction and Report Language
     ii  perl-base                 5.36.0-7                       amd64        minimal Perl system
@@ -203,7 +203,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  sensible-utils            0.0.17+nmu1                    all          Utilities for sensible alternative selection
     ii  sysvinit-utils            3.06-2                         amd64        System-V-like utilities
     ii  tar                       1.34+dfsg-1                    amd64        GNU version of the tar archiving utility
-    ii  tzdata                    2022g-4                        all          time zone and daylight-saving time data
+    ii  tzdata                    2022g-5                        all          time zone and daylight-saving time data
     ii  ucf                       3.0043+nmu1                    all          Update Configuration File(s): preserve user changes to config files
     ii  unzip                     6.0-27                         amd64        De-archiver for .zip files
     ii  usr-is-merged             35                             all          Transitional package to assert a merged-/usr system
