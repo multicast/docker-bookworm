@@ -65,8 +65,8 @@ entry point script. See [examples](build/etc/entrypoint.d).
     |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
     ||/ Name                      Version                        Architecture Description
     +++-=========================-==============================-============-========================================================================
-    ii  apt                       2.5.5                          amd64        commandline package manager
-    ii  apt-utils                 2.5.5                          amd64        package management related utility programs
+    ii  apt                       2.5.6                          amd64        commandline package manager
+    ii  apt-utils                 2.5.6                          amd64        package management related utility programs
     ii  base-files                12.3                           amd64        Debian base system miscellaneous files
     ii  base-passwd               3.6.1                          amd64        Debian base system master password and group files
     ii  bash                      5.2.15-2+b1                    amd64        GNU Bourne Again SHell
@@ -97,10 +97,10 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  joe                       4.6-1+b1                       amd64        user friendly full screen text editor
     ii  less                      590-1.1                        amd64        pager program similar to more
     ii  libacl1:amd64             2.3.1-3                        amd64        access control list - shared library
-    ii  libapt-pkg6.0:amd64       2.5.5                          amd64        package management runtime library
+    ii  libapt-pkg6.0:amd64       2.5.6                          amd64        package management runtime library
     ii  libattr1:amd64            1:2.5.1-4                      amd64        extended attribute handling - shared library
-    ii  libaudit-common           1:3.0.7-1.1                    all          Dynamic library for security auditing - common files
-    ii  libaudit1:amd64           1:3.0.7-1.1+b3                 amd64        Dynamic library for security auditing
+    ii  libaudit-common           1:3.0.9-1                      all          Dynamic library for security auditing - common files
+    ii  libaudit1:amd64           1:3.0.9-1                      amd64        Dynamic library for security auditing
     ii  libblkid1:amd64           2.38.1-4                       amd64        block device ID library
     ii  libbpf1:amd64             1:1.1.0-1                      amd64        eBPF helper library (shared library)
     ii  libbrotli1:amd64          1.0.9-2+b6                     amd64        library implementing brotli encoder and decoder (shared libraries)
