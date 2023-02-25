@@ -95,7 +95,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  iproute2                  6.1.0-1                        amd64        networking and traffic control tools
     ii  iputils-ping              3:20221126-1                   amd64        Tools to test the reachability of network hosts
     ii  joe                       4.6-1+b1                       amd64        user friendly full screen text editor
-    ii  less                      590-1.1                        amd64        pager program similar to more
+    ii  less                      590-1.2                        amd64        pager program similar to more
     ii  libacl1:amd64             2.3.1-3                        amd64        access control list - shared library
     ii  libapt-pkg6.0:amd64       2.5.6                          amd64        package management runtime library
     ii  libattr1:amd64            1:2.5.1-4                      amd64        extended attribute handling - shared library
@@ -157,7 +157,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libperl5.36:amd64         5.36.0-7                       amd64        shared Perl library
     ii  libpopt0:amd64            1.19+dfsg-1                    amd64        lib for parsing cmdline parameters
     ii  libproc2-0:amd64          2:4.0.2-3                      amd64        library for accessing process information from /proc
-    ii  libpsl5:amd64             0.21.0-1.2                     amd64        Library for Public Suffix List (shared libraries)
+    ii  libpsl5:amd64             0.21.2-1                       amd64        Library for Public Suffix List (shared libraries)
     ii  librtmp1:amd64            2.4+20151223.gitfa8646d.1-2+b2 amd64        toolkit for RTMP streams (shared library)
     ii  libsasl2-2:amd64          2.1.28+dfsg-10                 amd64        Cyrus SASL - authentication abstraction library
     ii  libsasl2-modules-db:amd64 2.1.28+dfsg-10                 amd64        Cyrus SASL - pluggable authentication modules (DB)
