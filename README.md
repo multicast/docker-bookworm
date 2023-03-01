@@ -128,7 +128,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libgdbm-compat4:amd64     1.23-3                         amd64        GNU dbm database routines (legacy support runtime version) 
     ii  libgdbm6:amd64            1.23-3                         amd64        GNU dbm database routines (runtime version) 
     ii  libgmp10:amd64            2:6.2.1+dfsg1-1.1              amd64        Multiprecision arithmetic library
-    ii  libgnutls30:amd64         3.7.8-5                        amd64        GNU TLS library - main runtime library
+    ii  libgnutls30:amd64         3.7.9-1                        amd64        GNU TLS library - main runtime library
     ii  libgpg-error0:amd64       1.46-1                         amd64        GnuPG development runtime library
     ii  libgssapi-krb5-2:amd64    1.20.1-1                       amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
     ii  libhogweed6:amd64         3.8.1-2                        amd64        low level cryptographic library (public-key cryptos)
@@ -203,7 +203,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  sensible-utils            0.0.17+nmu1                    all          Utilities for sensible alternative selection
     ii  sysvinit-utils            3.06-2                         amd64        System-V-like utilities
     ii  tar                       1.34+dfsg-1                    amd64        GNU version of the tar archiving utility
-    ii  tzdata                    2022g-5                        all          time zone and daylight-saving time data
+    ii  tzdata                    2022g-7                        all          time zone and daylight-saving time data
     ii  ucf                       3.0043+nmu1                    all          Update Configuration File(s): preserve user changes to config files
     ii  unzip                     6.0-27                         amd64        De-archiver for .zip files
     ii  usr-is-merged             35                             all          Transitional package to assert a merged-/usr system
