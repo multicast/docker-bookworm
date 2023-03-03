@@ -205,7 +205,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  tar                       1.34+dfsg-1                    amd64        GNU version of the tar archiving utility
     ii  tzdata                    2022g-7                        all          time zone and daylight-saving time data
     ii  ucf                       3.0043+nmu1                    all          Update Configuration File(s): preserve user changes to config files
-    ii  unzip                     6.0-27                         amd64        De-archiver for .zip files
+    ii  unzip                     6.0-28                         amd64        De-archiver for .zip files
     ii  usr-is-merged             35                             all          Transitional package to assert a merged-/usr system
     ii  util-linux                2.38.1-5                       amd64        miscellaneous system utilities
     ii  util-linux-extra          2.38.1-5                       amd64        interactive login tools
