@@ -94,7 +94,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  init-system-helpers       1.65.2                         all          helper tools for all init systems
     ii  iproute2                  6.1.0-1                        amd64        networking and traffic control tools
     ii  iputils-ping              3:20221126-1                   amd64        Tools to test the reachability of network hosts
-    ii  joe                       4.6-1+b1                       amd64        user friendly full screen text editor
+    ii  joe                       4.6-1.1                        amd64        user friendly full screen text editor
     ii  less                      590-1.2                        amd64        pager program similar to more
     ii  libacl1:amd64             2.3.1-3                        amd64        access control list - shared library
     ii  libapt-pkg6.0:amd64       2.5.6                          amd64        package management runtime library
@@ -143,7 +143,6 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libmd0:amd64              1.0.4-2                        amd64        message digest functions from BSD systems - shared library
     ii  libmnl0:amd64             1.0.4-3                        amd64        minimalistic Netlink communication library
     ii  libmount1:amd64           2.38.1-5                       amd64        device mounting library
-    ii  libncurses6:amd64         6.4-2                          amd64        shared libraries for terminal handling
     ii  libncursesw6:amd64        6.4-2                          amd64        shared libraries for terminal handling (wide character support)
     ii  libnettle8:amd64          3.8.1-2                        amd64        low level cryptographic library (symmetric and one-way cryptos)
     ii  libnewt0.52:amd64         0.52.23-1+b1                   amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
