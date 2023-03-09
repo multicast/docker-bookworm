@@ -80,7 +80,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  debianutils               5.7-0.4                        amd64        Miscellaneous utilities specific to Debian
     ii  di                        4.51-1                         amd64        advanced df like disk information utility
     ii  diffutils                 1:3.8-4                        amd64        File comparison utilities
-    ii  dpkg                      1.21.20                        amd64        Debian package management system
+    ii  dpkg                      1.21.21                        amd64        Debian package management system
     ii  e2fsprogs                 1.46.6-1                       amd64        ext2/ext3/ext4 file system utilities
     ii  etckeeper                 1.18.20-1                      all          store /etc in git, mercurial, brz or darcs
     ii  findutils                 4.9.0-4                        amd64        utilities for finding files--find, xargs
@@ -92,7 +92,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  gzip                      1.12-1                         amd64        GNU compression utilities
     ii  hostname                  3.23+nmu1                      amd64        utility to set/show the host name or domain name
     ii  init-system-helpers       1.65.2                         all          helper tools for all init systems
-    ii  iproute2                  6.1.0-1                        amd64        networking and traffic control tools
+    ii  iproute2                  6.1.0-2                        amd64        networking and traffic control tools
     ii  iputils-ping              3:20221126-1                   amd64        Tools to test the reachability of network hosts
     ii  joe                       4.6-1.1                        amd64        user friendly full screen text editor
     ii  less                      590-1.2                        amd64        pager program similar to more
@@ -165,7 +165,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libsemanage-common        3.4-1                          all          Common files for SELinux policy management libraries
     ii  libsemanage2:amd64        3.4-1+b5                       amd64        SELinux policy management library
     ii  libsepol2:amd64           3.4-2                          amd64        SELinux library for manipulating binary security policies
-    ii  libslang2:amd64           2.3.3-2                        amd64        S-Lang programming library - runtime version
+    ii  libslang2:amd64           2.3.3-3                        amd64        S-Lang programming library - runtime version
     ii  libsmartcols1:amd64       2.38.1-5                       amd64        smart column output alignment library
     ii  libss2:amd64              1.46.6-1                       amd64        command-line interface parsing library
     ii  libssh2-1:amd64           1.10.0-3+b1                    amd64        SSH2 client-side library
