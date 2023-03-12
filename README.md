@@ -171,12 +171,12 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libssh2-1:amd64           1.10.0-3+b1                    amd64        SSH2 client-side library
     ii  libssl3:amd64             3.0.8-1                        amd64        Secure Sockets Layer toolkit - shared libraries
     ii  libstdc++6:amd64          12.2.0-14                      amd64        GNU Standard C++ Library v3
-    ii  libsystemd0:amd64         252.5-2                        amd64        systemd utility library
+    ii  libsystemd0:amd64         252.6-1                        amd64        systemd utility library
     ii  libtasn1-6:amd64          4.19.0-2                       amd64        Manage ASN.1 structures (runtime)
     ii  libtinfo6:amd64           6.4-2                          amd64        shared low-level terminfo library for terminal handling
     ii  libtirpc-common           1.3.3+ds-1                     all          transport-independent RPC library - common files
     ii  libtirpc3:amd64           1.3.3+ds-1                     amd64        transport-independent RPC library
-    ii  libudev1:amd64            252.5-2                        amd64        libudev shared library
+    ii  libudev1:amd64            252.6-1                        amd64        libudev shared library
     ii  libunistring2:amd64       1.0-2                          amd64        Unicode string library for C
     ii  libuuid1:amd64            2.38.1-5                       amd64        Universally Unique ID library
     ii  libxtables12:amd64        1.8.9-2                        amd64        netfilter xtables library
