@@ -70,7 +70,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  base-files                12.4                           amd64        Debian base system miscellaneous files
     ii  base-passwd               3.6.1                          amd64        Debian base system master password and group files
     ii  bash                      5.2.15-2+b1                    amd64        GNU Bourne Again SHell
-    ii  bsdutils                  1:2.38.1-5                     amd64        basic utilities from 4.4BSD-Lite
+    ii  bsdutils                  1:2.38.1-5+b1                  amd64        basic utilities from 4.4BSD-Lite
     ii  ca-certificates           20230311                       all          Common CA certificates
     ii  coreutils                 9.1-1                          amd64        GNU core utilities
     ii  curl                      7.88.1-6                       amd64        command line tool for transferring data with URL syntax
@@ -101,7 +101,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libattr1:amd64            1:2.5.1-4                      amd64        extended attribute handling - shared library
     ii  libaudit-common           1:3.0.9-1                      all          Dynamic library for security auditing - common files
     ii  libaudit1:amd64           1:3.0.9-1                      amd64        Dynamic library for security auditing
-    ii  libblkid1:amd64           2.38.1-5                       amd64        block device ID library
+    ii  libblkid1:amd64           2.38.1-5+b1                    amd64        block device ID library
     ii  libbpf1:amd64             1:1.1.0-1                      amd64        eBPF helper library (shared library)
     ii  libbrotli1:amd64          1.0.9-2+b6                     amd64        library implementing brotli encoder and decoder (shared libraries)
     ii  libbsd0:amd64             0.11.7-2                       amd64        utility functions from BSD systems - shared library
@@ -130,19 +130,19 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libgmp10:amd64            2:6.2.1+dfsg1-1.1              amd64        Multiprecision arithmetic library
     ii  libgnutls30:amd64         3.7.9-1                        amd64        GNU TLS library - main runtime library
     ii  libgpg-error0:amd64       1.46-1                         amd64        GnuPG development runtime library
-    ii  libgssapi-krb5-2:amd64    1.20.1-1                       amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+    ii  libgssapi-krb5-2:amd64    1.20.1-1+b1                    amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
     ii  libhogweed6:amd64         3.8.1-2                        amd64        low level cryptographic library (public-key cryptos)
     ii  libidn2-0:amd64           2.3.3-1+b1                     amd64        Internationalized domain names (IDNA2008/TR46) library
-    ii  libk5crypto3:amd64        1.20.1-1                       amd64        MIT Kerberos runtime libraries - Crypto Library
+    ii  libk5crypto3:amd64        1.20.1-1+b1                    amd64        MIT Kerberos runtime libraries - Crypto Library
     ii  libkeyutils1:amd64        1.6.3-2                        amd64        Linux Key Management Utilities (library)
-    ii  libkrb5-3:amd64           1.20.1-1                       amd64        MIT Kerberos runtime libraries
-    ii  libkrb5support0:amd64     1.20.1-1                       amd64        MIT Kerberos runtime libraries - Support library
+    ii  libkrb5-3:amd64           1.20.1-1+b1                    amd64        MIT Kerberos runtime libraries
+    ii  libkrb5support0:amd64     1.20.1-1+b1                    amd64        MIT Kerberos runtime libraries - Support library
     ii  libldap-2.5-0:amd64       2.5.13+dfsg-5                  amd64        OpenLDAP libraries
     ii  liblz4-1:amd64            1.9.4-1                        amd64        Fast LZ compression algorithm library - runtime
     ii  liblzma5:amd64            5.4.1-0.2                      amd64        XZ-format compression library
     ii  libmd0:amd64              1.0.4-2                        amd64        message digest functions from BSD systems - shared library
     ii  libmnl0:amd64             1.0.4-3                        amd64        minimalistic Netlink communication library
-    ii  libmount1:amd64           2.38.1-5                       amd64        device mounting library
+    ii  libmount1:amd64           2.38.1-5+b1                    amd64        device mounting library
     ii  libncursesw6:amd64        6.4-2                          amd64        shared libraries for terminal handling (wide character support)
     ii  libnettle8:amd64          3.8.1-2                        amd64        low level cryptographic library (symmetric and one-way cryptos)
     ii  libnewt0.52:amd64         0.52.23-1+b1                   amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
@@ -166,7 +166,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libsemanage2:amd64        3.4-1+b5                       amd64        SELinux policy management library
     ii  libsepol2:amd64           3.4-2                          amd64        SELinux library for manipulating binary security policies
     ii  libslang2:amd64           2.3.3-3                        amd64        S-Lang programming library - runtime version
-    ii  libsmartcols1:amd64       2.38.1-5                       amd64        smart column output alignment library
+    ii  libsmartcols1:amd64       2.38.1-5+b1                    amd64        smart column output alignment library
     ii  libss2:amd64              1.46.6-1                       amd64        command-line interface parsing library
     ii  libssh2-1:amd64           1.10.0-3+b1                    amd64        SSH2 client-side library
     ii  libssl3:amd64             3.0.8-1                        amd64        Secure Sockets Layer toolkit - shared libraries
@@ -178,21 +178,21 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libtirpc3:amd64           1.3.3+ds-1                     amd64        transport-independent RPC library
     ii  libudev1:amd64            252.6-1                        amd64        libudev shared library
     ii  libunistring2:amd64       1.0-2                          amd64        Unicode string library for C
-    ii  libuuid1:amd64            2.38.1-5                       amd64        Universally Unique ID library
+    ii  libuuid1:amd64            2.38.1-5+b1                    amd64        Universally Unique ID library
     ii  libxtables12:amd64        1.8.9-2                        amd64        netfilter xtables library
     ii  libxxhash0:amd64          0.8.1-1                        amd64        shared library for xxhash
     ii  libzstd1:amd64            1.5.4+dfsg2-3                  amd64        fast lossless compression algorithm
     ii  localepurge               0.7.3.10                       all          reclaim disk space by removing unneeded localizations
     ii  locales                   2.36-8                         all          GNU C Library: National Language (locale) data [support]
-    ii  login                     1:4.13+dfsg1-1                 amd64        system login tools
+    ii  login                     1:4.13+dfsg1-1+b1              amd64        system login tools
     ii  logsave                   1.46.6-1                       amd64        save the output of a command in a log file
     ii  mawk                      1.3.4.20200120-3.1             amd64        Pattern scanning and text processing language
-    ii  mount                     2.38.1-5                       amd64        tools for mounting and manipulating filesystems
+    ii  mount                     2.38.1-5+b1                    amd64        tools for mounting and manipulating filesystems
     ii  ncurses-base              6.4-2                          all          basic terminal type definitions
     ii  ncurses-bin               6.4-2                          amd64        terminal-related programs and man pages
     ii  net-tools                 2.10-0.1                       amd64        NET-3 networking toolkit
     ii  openssl                   3.0.8-1                        amd64        Secure Sockets Layer toolkit - cryptographic utility
-    ii  passwd                    1:4.13+dfsg1-1                 amd64        change and administer password and group data
+    ii  passwd                    1:4.13+dfsg1-1+b1              amd64        change and administer password and group data
     ii  perl                      5.36.0-7                       amd64        Larry Wall's Practical Extraction and Report Language
     ii  perl-base                 5.36.0-7                       amd64        minimal Perl system
     ii  perl-modules-5.36         5.36.0-7                       all          Core Perl modules
@@ -206,8 +206,8 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  ucf                       3.0043+nmu1                    all          Update Configuration File(s): preserve user changes to config files
     ii  unzip                     6.0-28                         amd64        De-archiver for .zip files
     ii  usr-is-merged             35                             all          Transitional package to assert a merged-/usr system
-    ii  util-linux                2.38.1-5                       amd64        miscellaneous system utilities
-    ii  util-linux-extra          2.38.1-5                       amd64        interactive login tools
+    ii  util-linux                2.38.1-5+b1                    amd64        miscellaneous system utilities
+    ii  util-linux-extra          2.38.1-5+b1                    amd64        interactive login tools
     ii  whiptail                  0.52.23-1+b1                   amd64        Displays user-friendly dialog boxes from shell scripts
     ii  xtail                     2.1-8                          amd64        like "tail -f", but works on truncated files, directories, more
     ii  zlib1g:amd64              1:1.2.13.dfsg-1                amd64        compression library - runtime
