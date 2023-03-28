@@ -76,7 +76,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  curl                      7.88.1-7                       amd64        command line tool for transferring data with URL syntax
     ii  dash                      0.5.12-2                       amd64        POSIX-compliant shell
     ii  debconf                   1.5.82                         all          Debian configuration management system
-    ii  debian-archive-keyring    2021.1.1                       all          GnuPG archive keys of the Debian archive
+    ii  debian-archive-keyring    2023.2                         all          GnuPG archive keys of the Debian archive
     ii  debianutils               5.7-0.4                        amd64        Miscellaneous utilities specific to Debian
     ii  di                        4.51-1                         amd64        advanced df like disk information utility
     ii  diffutils                 1:3.8-4                        amd64        File comparison utilities
