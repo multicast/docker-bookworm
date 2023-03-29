@@ -87,7 +87,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  gcc-12-base:amd64         12.2.0-14                      amd64        GCC, the GNU Compiler Collection (base package)
     ii  git                       1:2.39.2-1.1                   amd64        fast, scalable, distributed revision control system
     ii  git-man                   1:2.39.2-1.1                   all          fast, scalable, distributed revision control system (manual pages)
-    ii  gpgv                      2.2.40-1                       amd64        GNU privacy guard - signature verification tool
+    ii  gpgv                      2.2.40-1.1                     amd64        GNU privacy guard - signature verification tool
     ii  grep                      3.8-5                          amd64        GNU grep, egrep and fgrep
     ii  gzip                      1.12-1                         amd64        GNU compression utilities
     ii  hostname                  3.23+nmu1                      amd64        utility to set/show the host name or domain name
