@@ -117,7 +117,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libcurl3-gnutls:amd64     7.88.1-7                       amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
     ii  libcurl4:amd64            7.88.1-7                       amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
     ii  libdb5.3:amd64            5.3.28+dfsg2-1                 amd64        Berkeley v5.3 Database Libraries [runtime]
-    ii  libdebconfclient0:amd64   0.267                          amd64        Debian Configuration Management System (C-implementation library)
+    ii  libdebconfclient0:amd64   0.268                          amd64        Debian Configuration Management System (C-implementation library)
     ii  libelf1:amd64             0.188-2.1                      amd64        library to read and write ELF files
     ii  liberror-perl             0.17029-2                      all          Perl module for error/exception handling in an OO-ish way
     ii  libexpat1:amd64           2.5.0-1                        amd64        XML parsing C library - runtime library
