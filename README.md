@@ -181,7 +181,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libuuid1:amd64            2.38.1-5+b1                    amd64        Universally Unique ID library
     ii  libxtables12:amd64        1.8.9-2                        amd64        netfilter xtables library
     ii  libxxhash0:amd64          0.8.1-1                        amd64        shared library for xxhash
-    ii  libzstd1:amd64            1.5.4+dfsg2-3                  amd64        fast lossless compression algorithm
+    ii  libzstd1:amd64            1.5.4+dfsg2-5                  amd64        fast lossless compression algorithm
     ii  localepurge               0.7.3.10                       all          reclaim disk space by removing unneeded localizations
     ii  locales                   2.36-8                         all          GNU C Library: National Language (locale) data [support]
     ii  login                     1:4.13+dfsg1-1+b1              amd64        system login tools
