@@ -143,7 +143,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libmd0:amd64              1.0.4-2                        amd64        message digest functions from BSD systems - shared library
     ii  libmnl0:amd64             1.0.4-3                        amd64        minimalistic Netlink communication library
     ii  libmount1:amd64           2.38.1-5+b1                    amd64        device mounting library
-    ii  libncursesw6:amd64        6.4-2                          amd64        shared libraries for terminal handling (wide character support)
+    ii  libncursesw6:amd64        6.4-4                          amd64        shared libraries for terminal handling (wide character support)
     ii  libnettle8:amd64          3.8.1-2                        amd64        low level cryptographic library (symmetric and one-way cryptos)
     ii  libnewt0.52:amd64         0.52.23-1+b1                   amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
     ii  libnghttp2-14:amd64       1.52.0-1                       amd64        library implementing HTTP/2 protocol (shared library)
@@ -173,7 +173,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libstdc++6:amd64          12.2.0-14                      amd64        GNU Standard C++ Library v3
     ii  libsystemd0:amd64         252.6-1                        amd64        systemd utility library
     ii  libtasn1-6:amd64          4.19.0-2                       amd64        Manage ASN.1 structures (runtime)
-    ii  libtinfo6:amd64           6.4-2                          amd64        shared low-level terminfo library for terminal handling
+    ii  libtinfo6:amd64           6.4-4                          amd64        shared low-level terminfo library for terminal handling
     ii  libtirpc-common           1.3.3+ds-1                     all          transport-independent RPC library - common files
     ii  libtirpc3:amd64           1.3.3+ds-1                     amd64        transport-independent RPC library
     ii  libudev1:amd64            252.6-1                        amd64        libudev shared library
@@ -188,8 +188,8 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  logsave                   1.47.0-2                       amd64        save the output of a command in a log file
     ii  mawk                      1.3.4.20200120-3.1             amd64        Pattern scanning and text processing language
     ii  mount                     2.38.1-5+b1                    amd64        tools for mounting and manipulating filesystems
-    ii  ncurses-base              6.4-2                          all          basic terminal type definitions
-    ii  ncurses-bin               6.4-2                          amd64        terminal-related programs and man pages
+    ii  ncurses-base              6.4-4                          all          basic terminal type definitions
+    ii  ncurses-bin               6.4-4                          amd64        terminal-related programs and man pages
     ii  net-tools                 2.10-0.1                       amd64        NET-3 networking toolkit
     ii  openssl                   3.0.8-1                        amd64        Secure Sockets Layer toolkit - cryptographic utility
     ii  passwd                    1:4.13+dfsg1-1+b1              amd64        change and administer password and group data
