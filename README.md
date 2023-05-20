@@ -95,7 +95,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  iproute2                  6.1.0-2                        amd64        networking and traffic control tools
     ii  iputils-ping              3:20221126-1                   amd64        Tools to test the reachability of network hosts
     ii  joe                       4.6-1.1                        amd64        user friendly full screen text editor
-    ii  less                      590-1.2                        amd64        pager program similar to more
+    ii  less                      590-2                          amd64        pager program similar to more
     ii  libacl1:amd64             2.3.1-3                        amd64        access control list - shared library
     ii  libapt-pkg6.0:amd64       2.6.0                          amd64        package management runtime library
     ii  libattr1:amd64            1:2.5.1-4                      amd64        extended attribute handling - shared library
