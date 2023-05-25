@@ -92,7 +92,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  gzip                      1.12-1                         amd64        GNU compression utilities
     ii  hostname                  3.23+nmu1                      amd64        utility to set/show the host name or domain name
     ii  init-system-helpers       1.65.2                         all          helper tools for all init systems
-    ii  iproute2                  6.1.0-2                        amd64        networking and traffic control tools
+    ii  iproute2                  6.1.0-3                        amd64        networking and traffic control tools
     ii  iputils-ping              3:20221126-1                   amd64        Tools to test the reachability of network hosts
     ii  joe                       4.6-1.1                        amd64        user friendly full screen text editor
     ii  less                      590-2                          amd64        pager program similar to more
@@ -110,8 +110,8 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libc-l10n                 2.36-9                         all          GNU C Library: localization files
     ii  libc6:amd64               2.36-9                         amd64        GNU C Library: Shared libraries
     ii  libcap-ng0:amd64          0.8.3-1+b3                     amd64        alternate POSIX capabilities library
-    ii  libcap2:amd64             1:2.66-3                       amd64        POSIX 1003.1e capabilities (library)
-    ii  libcap2-bin               1:2.66-3                       amd64        POSIX 1003.1e capabilities (utilities)
+    ii  libcap2:amd64             1:2.66-4                       amd64        POSIX 1003.1e capabilities (library)
+    ii  libcap2-bin               1:2.66-4                       amd64        POSIX 1003.1e capabilities (utilities)
     ii  libcom-err2:amd64         1.47.0-2                       amd64        common error description library
     ii  libcrypt1:amd64           1:4.4.33-2                     amd64        libcrypt shared library
     ii  libcurl3-gnutls:amd64     7.88.1-9                       amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
