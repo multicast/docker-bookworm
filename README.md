@@ -164,7 +164,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libselinux1:amd64         3.4-1+b5                       amd64        SELinux runtime shared libraries
     ii  libsemanage-common        3.4-1                          all          Common files for SELinux policy management libraries
     ii  libsemanage2:amd64        3.4-1+b5                       amd64        SELinux policy management library
-    ii  libsepol2:amd64           3.4-2                          amd64        SELinux library for manipulating binary security policies
+    ii  libsepol2:amd64           3.4-2.1                        amd64        SELinux library for manipulating binary security policies
     ii  libslang2:amd64           2.3.3-3                        amd64        S-Lang programming library - runtime version
     ii  libsmartcols1:amd64       2.38.1-5+b1                    amd64        smart column output alignment library
     ii  libss2:amd64              1.47.0-2                       amd64        command-line interface parsing library
@@ -202,7 +202,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  sensible-utils            0.0.17+nmu1                    all          Utilities for sensible alternative selection
     ii  sysvinit-utils            3.06-4                         amd64        System-V-like utilities
     ii  tar                       1.34+dfsg-1.2                  amd64        GNU version of the tar archiving utility
-    ii  tzdata                    2023c-3                        all          time zone and daylight-saving time data
+    ii  tzdata                    2023c-4                        all          time zone and daylight-saving time data
     ii  ucf                       3.0043+nmu1                    all          Update Configuration File(s): preserve user changes to config files
     ii  unzip                     6.0-28                         amd64        De-archiver for .zip files
     ii  usr-is-merged             35                             all          Transitional package to assert a merged-/usr system
