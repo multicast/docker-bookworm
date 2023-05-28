@@ -65,8 +65,9 @@ entry point script. See [examples](build/etc/entrypoint.d).
     |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
     ||/ Name                      Version                        Architecture Description
     +++-=========================-==============================-============-========================================================================
-    ii  apt                       2.6.0                          amd64        commandline package manager
-    ii  apt-utils                 2.6.0                          amd64        package management related utility programs
+    ii  adduser                   3.133                          all          add and remove users and groups
+    ii  apt                       2.6.1                          amd64        commandline package manager
+    ii  apt-utils                 2.6.1                          amd64        package management related utility programs
     ii  base-files                12.4                           amd64        Debian base system miscellaneous files
     ii  base-passwd               3.6.1                          amd64        Debian base system master password and group files
     ii  bash                      5.2.15-2+b2                    amd64        GNU Bourne Again SHell
@@ -97,7 +98,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  joe                       4.6-1.1                        amd64        user friendly full screen text editor
     ii  less                      590-2                          amd64        pager program similar to more
     ii  libacl1:amd64             2.3.1-3                        amd64        access control list - shared library
-    ii  libapt-pkg6.0:amd64       2.6.0                          amd64        package management runtime library
+    ii  libapt-pkg6.0:amd64       2.6.1                          amd64        package management runtime library
     ii  libattr1:amd64            1:2.5.1-4                      amd64        extended attribute handling - shared library
     ii  libaudit-common           1:3.0.9-1                      all          Dynamic library for security auditing - common files
     ii  libaudit1:amd64           1:3.0.9-1                      amd64        Dynamic library for security auditing
