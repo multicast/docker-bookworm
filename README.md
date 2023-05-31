@@ -65,7 +65,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
     ||/ Name                      Version                        Architecture Description
     +++-=========================-==============================-============-========================================================================
-    ii  adduser                   3.133                          all          add and remove users and groups
+    ii  adduser                   3.134                          all          add and remove users and groups
     ii  apt                       2.6.1                          amd64        commandline package manager
     ii  apt-utils                 2.6.1                          amd64        package management related utility programs
     ii  base-files                12.4                           amd64        Debian base system miscellaneous files
