@@ -162,7 +162,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libsasl2-2:amd64          2.1.28+dfsg-10                 amd64        Cyrus SASL - authentication abstraction library
     ii  libsasl2-modules-db:amd64 2.1.28+dfsg-10                 amd64        Cyrus SASL - pluggable authentication modules (DB)
     ii  libseccomp2:amd64         2.5.4-1+b3                     amd64        high level interface to Linux seccomp filter
-    ii  libselinux1:amd64         3.4-1+b5                       amd64        SELinux runtime shared libraries
+    ii  libselinux1:amd64         3.4-1+b6                       amd64        SELinux runtime shared libraries
     ii  libsemanage-common        3.4-1                          all          Common files for SELinux policy management libraries
     ii  libsemanage2:amd64        3.4-1+b5                       amd64        SELinux policy management library
     ii  libsepol2:amd64           3.4-2.1                        amd64        SELinux library for manipulating binary security policies
@@ -170,7 +170,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  libsmartcols1:amd64       2.38.1-5+b1                    amd64        smart column output alignment library
     ii  libss2:amd64              1.47.0-2                       amd64        command-line interface parsing library
     ii  libssh2-1:amd64           1.10.0-3+b1                    amd64        SSH2 client-side library
-    ii  libssl3:amd64             3.0.8-1                        amd64        Secure Sockets Layer toolkit - shared libraries
+    ii  libssl3:amd64             3.0.9-1                        amd64        Secure Sockets Layer toolkit - shared libraries
     ii  libstdc++6:amd64          12.2.0-14                      amd64        GNU Standard C++ Library v3
     ii  libsystemd0:amd64         252.6-1                        amd64        systemd utility library
     ii  libtasn1-6:amd64          4.19.0-2                       amd64        Manage ASN.1 structures (runtime)
@@ -192,7 +192,7 @@ entry point script. See [examples](build/etc/entrypoint.d).
     ii  ncurses-base              6.4-4                          all          basic terminal type definitions
     ii  ncurses-bin               6.4-4                          amd64        terminal-related programs and man pages
     ii  net-tools                 2.10-0.1                       amd64        NET-3 networking toolkit
-    ii  openssl                   3.0.8-1                        amd64        Secure Sockets Layer toolkit - cryptographic utility
+    ii  openssl                   3.0.9-1                        amd64        Secure Sockets Layer toolkit - cryptographic utility
     ii  passwd                    1:4.13+dfsg1-1+b1              amd64        change and administer password and group data
     ii  perl                      5.36.0-7                       amd64        Larry Wall's Practical Extraction and Report Language
     ii  perl-base                 5.36.0-7                       amd64        minimal Perl system
